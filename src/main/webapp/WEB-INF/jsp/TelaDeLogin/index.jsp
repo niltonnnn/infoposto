@@ -37,16 +37,16 @@
 				</div>
 				<form class="login100-form validate-form">
 					<span class="login100-form-title">
-						Fa√ßa seu login!
+						FaÁa seu login!
 					</span>
-					<div class="wrap-input100 validate-input" data-validate = "Digite um email v√°lido: ex:fulano@hotmail.com">
+					<div class="wrap-input100 validate-input" data-validate = "Digite um email valido: ex:fulano@hotmail.com">
 						<input class="input100" type="text" name="email" placeholder="Email">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 						</span>
 					</div>
-					<div class="wrap-input100 validate-input" data-validate = "Senha obrigadoria">
+					<div class="wrap-input100 validate-input" data-validate = "Senha obrigatoria">
 						<input class="input100" type="password" name="pass" placeholder="Senha">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
@@ -68,7 +68,7 @@
 					</div>
 					<div class="text-center p-t-136">
 						<a class="txt2" href="file:///Z:/TCCFIEB/InfoPosto/TCC/formulario/formulario.html">
-							N√£o tem login? Fa√ßa seu cadastro!
+							N„o tem login? FaÁa seu cadastro!
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
 					</div>
@@ -98,8 +98,8 @@
 						<h4>Empresa</h4>
 						<ul>
 							<li><a href=""> Quem somos </a></li>
-							<li><a href=""> Nossos servi√ßos </a></li>
-							<li><a href=""> pol√≠tica de privacidade </a></li>
+							<li><a href=""> Nossos serviÁos </a></li>
+							<li><a href=""> Politica de privacidade </a></li>
 							<li><a href=""> Nossos Parceiros</a></li>
 						</ul>
 					</div>
@@ -109,21 +109,21 @@
 						<h4>Obter ajuda</h4>
 						<ul>
 							<li><a href="#">Fale Conosco</a></li>
-							<li><a href="https://petrobras.com.br/pt/nossas-atividades/composicao-de-precos-de-venda-ao-consumidor/">Entenda a politica de pre√ßo da Petrobr√°s</a></li>
+							<li><a href="https://precos.petrobras.com.br/">Entenda a politica de preÁos da Petrobras</a></li>
 						</ul>
 					</div>
 					<div class="footer-col">
-						<h4>Envie uma sugest√£o!</h4>
+						<h4>Envie uma sugest„o!</h4>
 						<div class="form-sub">
 							<form>
-								<input type="email" placeholder="Digite aqui sua sugest√£o" required>
+								<input type="email" placeholder="Digite aqui sua sugest„o" required>
 								<button>Enviar</button>
 							</form>
 						</div>
 	
 						<div class="medias-socias">
-							<a href="https://www.linkedin.com/login/pt"><img src="img/linkedin.png.png" alt=""> </a>
-							<a href="https://www.facebook.com/"><img src="img/face.png.png"></a>
+							<a href="https://www.linkedin.com/login/pt"><img src="img-home/linkedin.png.png" alt=""> </a>
+							<a href="https://www.facebook.com/"><img src="img-home/face.png.png"></a>
 						</div>
 	
 					</div>
