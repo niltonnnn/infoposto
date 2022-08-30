@@ -53,19 +53,19 @@
                 <ul class="produtos">
                     <li>
                         <h2><b>Desconto</b></h2>
-                        <img src="img/desconto.png">
+                        <img src="img-home/desconto.png">
                         <p class="produto-descricao"><b>Ganhe Desconto</b></p>
                         <p class="produto-descricao1">Ao baixar e instalar o nosso app, você tem direito a R$0,15L de desconto</p>
                     </li>
                     <li>
                         <h2>Noticias</h2>
-                        <img src="img/news.png">
+                        <img src="img-home/news.png">
                         <p class="produto-descricao"><b>Notícias Diarias</b></p>
                         <p class="produto-descricao1">Aqui no InfoPosto você fica por dentro de tudo o que aconteece no mercado de petroleo, desde a cotação do barril de petroleo, Noticias em gerais que possam te impactar no seu dia a dia.</p>
                     </li>
                     <li>
                         <h2>Faça Parte!</h2>
-                        <img src="img/maoo.png">
+                        <img src="img-home/maoo.png">
                         <p class="produto-descricao1"><b>Cadastre seu Posto</b></p>
                         <p class="produto-preco">Tem um posto de gasolina ou conhece alguém que possua? Cadastre e venha fazer parte da equipe de postos do InfoPosto.</p>
                     </li>
@@ -120,8 +120,8 @@
                     </div>
 
                     <div class="medias-socias">
-                        <a href="https://www.linkedin.com/login/pt"><img src="img/linkedin.png.png" alt=""> </a>
-                        <a href="https://www.facebook.com/"><img src="img/face.png.png"></a>
+                        <a href="https://www.linkedin.com/login/pt"><img src="img-home/linkedin.png.png" alt=""> </a>
+                        <a href="https://www.facebook.com/"><img src="img-home/face.png.png"></a>
                     </div>
 
                 </div>
