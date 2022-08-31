@@ -17,6 +17,8 @@ import br.edu.itb.academico.actions.Action;
 
 // http://localhost:8080/infoposto/web?action=HomeAction
 
+// Guilherme Pereira
+
 @WebServlet(name= "AlunoController", urlPatterns= {"/web"})
 public class WebController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
