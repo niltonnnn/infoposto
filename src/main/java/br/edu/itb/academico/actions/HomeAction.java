@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import br.edu.itb.academico.service.AlunoDao;
 
+// localhost:8080/infoposto/web?action=HomeAction
+
 public class HomeAction implements Action {
 
 	@Override

@@ -14,14 +14,14 @@ import br.edu.itb.academico.service.AlunoDao;
 
 // http://localhost:8080/infoposto/web?action=FrmLoginAction
 
-public class FrmLoginAction implements Action {
+public class FrmBlogAction implements Action {
 
 	@Override
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		
 	
 
-		return "/WEB-INF/jsp/TelaDeLogin/index.jsp";
+		return "/WEB-INF/jsp/blog/Blog.jsp";
 	}
 
 }
