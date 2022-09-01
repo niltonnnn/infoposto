@@ -6,28 +6,24 @@
 <head>
 <meta charset="ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css-blog/home.css">
+    <link rel="stylesheet" href="CSS/css-blog/home.css">
     <title>TecBlog - Seu Blog de Tecnologia</title>
 </head>
 
 <body>
 
-    <<div id="area-cabecalho">
-            
-            <div id="area-logo">
-                <h1 href="file:///C:/Users/npalmeira/TCCFIEB/TCC/home/home.html">Info<span class="branco">Posto</span></h1>
-            </div>
-            <div id="area-menu">
-                <a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/home/home.html">Home</a>
-                <a href="https://precos.petrobras.com.br/">Blog</a>
-                <a href="/infoposto/web?action=FrmLoginAction">Login</a>
-                <a href="file:///Z:/TCCFIEB/InfoPosto/TCC/Tela%20de%20login/index.html#">Cadastre-se</a>
-                <a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/Faleconosco/ajuda.html">Fale Conosco</a>
-            
-            </div>
-            
-            
-        </div>
+  <div id="area-cabecalho">
+  		<div id="area-logo">
+      		<h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
+  		</div>
+  	<div id="area-menu">
+      <a href="http://localhost:8080/infoposto/web?action=HomeAction">Home</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmBlogAction">Blog</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmLoginAction">Login</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
+  	</div>
+	</div>
 
     <div id="area-principal">
         <!-- abertura de postagem -->

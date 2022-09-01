@@ -7,12 +7,12 @@
 		<title>InfoPosto-cadastro</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="IMG/images/icons/favicon.ico"/>
-	<link rel="stylesheet" type="text/css" href="css-formulariocadastro/vendor/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css-formulariocadastro/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css-formulariocadastro/vendor/animate/animate.css">
-	<link rel="stylesheet" type="text/css" href="css-formulariocadastro/vendor/select2/select2.min.css">
-	<link rel="stylesheet" type="text/css" href="css-formulariocadastro/css/util.css">
-	<link rel="stylesheet" type="text/css" href="css-formulariocadastro/css/main.css">
+	<link rel="stylesheet" type="text/css" href="CSS/css-formulariocadastro/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/css-formulariocadastro/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/css-formulariocadastro/vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="CSS/css-formulariocadastro/vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/css-formulariocadastro/css/util.css">
+	<link rel="stylesheet" type="text/css" href="CSS/css-formulariocadastro/css/main.css">
 	</head>
 	
 <body>
@@ -21,18 +21,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<div id="area-cabecalho">
-		<div id="area-logo">
-			<h1 href="file:///C:/Users/npalmeira/TCCFIEB/TCC/home/home.html">Info<span class="branco">Posto</span></h1>
-		</div>
-		<div id="area-menu">
-			<a href="file:///Z:/TCCFIEB/InfoPosto/TCC/home/home.html">Home</a>
-			<a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/blog/Tec_Blog-main/blog.html">Blog</a>
-			<a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/Login/login.html">Login</a>
-			<a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/formulario/formulario.html">Cadastre-se</a>
-			<a href="file:///Z:/TCCFIEB/InfoPosto/TCC/Faleconosco/ajuda.html">Fale Conosco</a>
-		</div>
-</div>
+ <div id="area-cabecalho">
+  		<div id="area-logo">
+      		<h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
+  		</div>
+  	<div id="area-menu">
+      <a href="http://localhost:8080/infoposto/web?action=HomeAction">Home</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmBlogAction">Blog</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmLoginAction">Login</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
+  	</div>
+	</div>
 
 <body>
 

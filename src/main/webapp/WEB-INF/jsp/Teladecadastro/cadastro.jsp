@@ -6,23 +6,23 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-    <link rel="stylesheet" type="text/css" href="css-teladecadastro/cadastro.css">
+    <link rel="stylesheet" type="text/css" href="CSS/css-teladecadastro/cadastro.css">
     <title>InfoPosto</title>
     <link href="css-teladecadastro/botstrapp.css" rel="stylesheet">
 </head>
 
-<div id="area-cabecalho">
-    <div id="area-logo">
-        <h1 href="file:///C:/Users/npalmeira/TCCFIEB/TCC/home/home.html">Info<span class="branco">Posto</span></h1>
-    </div>
-    <div id="area-menu">
-        <a href="https://fieb.edu.br">Home</a>
-        <a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/blog/Tec_Blog-main/blog.html">Blog</a>
-        <a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/Login/login.html">Login</a>
-        <a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/formulario/formulario.html">Cadastre-se</a>
-        <a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/Faleconosco/ajuda.html">Fale Conosco</a>
-    </div>
-  </div>
+ <div id="area-cabecalho">
+  		<div id="area-logo">
+      		<h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
+  		</div>
+  	<div id="area-menu">
+      <a href="http://localhost:8080/infoposto/web?action=HomeAction">Home</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmBlogAction">Blog</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmLoginAction">Login</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
+  	</div>
+	</div>
 
 <body>
     <div>

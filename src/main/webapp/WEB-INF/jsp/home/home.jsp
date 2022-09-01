@@ -8,31 +8,30 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css-home/home.css">
-    <link rel="stylesheet" type="text/css" href="css-home/slick.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/css-home/home.css">
+    <link rel="stylesheet" type="text/css" href="CSS/css-home/slick.css" />
     <title>InfoPosto</title>
 </head>
 
 <body>
-    <div id="area-cabecalho">
-            <div id="area-logo">
-                <h1 href="file:///C:/Users/npalmeira/TCCFIEB/TCC/home/home.html">Info<span class="branco">Posto</span></h1>
-            </div>
-            <div id="area-menu">
-                <a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/home/home.html">Home</a>
-                <a href="https://precos.petrobras.com.br/">Blog</a>
-                <a href="/infoposto/web?action=FrmLoginAction">Login</a>
-                <a href="file:///Z:/TCCFIEB/InfoPosto/TCC/Tela%20de%20login/index.html#">Cadastre-se</a>
-                <a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/Faleconosco/ajuda.html">Fale Conosco</a>
-            
-            </div>         
-        </div>
+     <div id="area-cabecalho">
+  		<div id="area-logo">
+      		<h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
+  		</div>
+  	<div id="area-menu">
+      <a href="http://localhost:8080/infoposto/web?action=HomeAction">Home</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmBlogAction">Blog</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmLoginAction">Login</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
+  	</div>
+	</div>
 
     <div class="col-100">
         <div class="slider-principal">
             <!--<img src="./img/imagem-principal1.jpg" />
             <img src="./img/imagem-principal2.jpg" /> -->
-            <img src="img-home/posto_home2.jpg" />
+            <img src="IMG/img-home/posto_home2.jpg" />
         </div>
     </div>
 
@@ -50,19 +49,19 @@
                 <ul class="produtos">
                     <li>
                         <h2><b>Desconto</b></h2>
-                        <img src="img-home/desconto.png">
+                        <img src="IMG/img-home/desconto.png">
                         <p class="produto-descricao"><b>Ganhe Desconto</b></p>
                         <p class="produto-descricao1">Ao baixar e instalar o nosso app, você avaliando o atendimento do posto tem direito a 5% de desconto</p>
                     </li>
                     <li>
                         <h2>Noticias</h2>
-                        <img src="img-home/news.png">
+                        <img src="IMG/img-home/news.png">
                         <p class="produto-descricao"><b>Noticias Diarias</b></p>
                         <p class="produto-descricao1">Aqui no InfoPosto você fica por dentro de tudo o que aconteece no mercado de petroleo, desde a cotação do barril de petroleo, Noticias em gerais que possam te impactar no seu dia a dia.</p>
                     </li>
                     <li>
                         <h2>Faça Parte!</h2>
-                        <img src="img-home/maoo.png">
+                        <img src="IMG/img-home/maoo.png">
                         <p class="produto-descricao1"><b>Cadastre seu Posto</b></p>
                         <p class="produto-preco">Tem um posto de gasolina ou conhece alguém que possua? Cadastre e venha fazer parte da equipe de postos do InfoPosto.</p>
                     </li>
@@ -117,8 +116,8 @@
                     </div>
 
                     <div class="medias-socias">
-                        <a href="https://www.linkedin.com/login/pt"><img src="img-home/linkedin.png.png" alt=""> </a>
-                        <a href="https://www.facebook.com/"><img src="img-home/face.png.png"></a>
+                        <a href="https://www.linkedin.com/login/pt"><img src="IMG/img-home/linkedin.png.png" alt=""> </a>
+                        <a href="https://www.facebook.com/"><img src="IMG/img-home/face.png.png"></a>
                     </div>
 
                 </div>

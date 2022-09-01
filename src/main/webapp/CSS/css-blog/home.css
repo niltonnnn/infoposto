@@ -1,11 +1,7 @@
-/* Limpar Formatações Gerais*/
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
-    background: #e6e6e6;
+    background: #ffffff;
     font-size: 1em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
@@ -13,9 +9,11 @@ body {
 /* Layout */
 
 #area-cabecalho {
-    background: #000000;
-padding: 15px;
+    background: #1d1c1c;
+    padding: 15px;
     text-align: center;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 #area-menu, #area-logo {
@@ -79,7 +77,7 @@ a:hover {
 
 #area-cabecalho a:hover {
     background: #FFF;
-    color:#f7b600;
+    color:#000000;
     text-decoration: none;
 }
 
@@ -90,22 +88,34 @@ a {
 /* Formatações Gerais */
 
 h1 {
-    color: #4e4e4e;
-    font-size: 2.5em;
+    color: #00D3AD;
+    font-size: 2.6em;
 }
 
-h2 {
-    color: #f7b600;
+
+h5 {
+    font-size: 33px;
+    line-height: 50px;
 }
 
-h3 {
-    color: #565656;
-    background: #CCC;
-    padding: 5px;
+.margem{
+    text-align: justify;
 }
 
 .branco {
     color: white;
+    font-size: 1.0em;
+}
+
+.redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
 }
 
 .data-postagem {

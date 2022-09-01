@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,27 +8,26 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="images-login/icons/favicon.ico"/>
-	<link rel="stylesheet" type="text/css" href="vendor-login/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="fonts-login/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="vendor-login/animate/animate.css">
-	<link rel="stylesheet" type="text/css" href="vendor-login/select2/select2.min.css">
-	<link rel="stylesheet" type="text/css" href="css-login/util.css">
-	<link rel="stylesheet" type="text/css" href="css-login/main.css">
+	<link rel="stylesheet" type="text/css" href="CSS/vendor-login/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/fonts-login/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/vendor-login/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="CSS/vendor-login/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/css-login/util.css">
+	<link rel="stylesheet" type="text/css" href="CSS/css-login/main.css">
 </head>
 
-<div id="area-cabecalho">
-		<div id="area-logo">
-			<h1 href="file:///C:/Users/npalmeira/TCCFIEB/TCC/home/home.html">Info<span class="branco">Posto</span></h1>
-		</div>
-		<div id="area-menu">
-			<a href="https://fieb.edu.br">Home</a>
-			<a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/blog/Tec_Blog-main/blog.html">Blog</a>
-			<a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/Login/login.html">Login</a>
-			<a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/formulario/formulario.html">Cadastre-se</a>
-			<a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/Faleconosco/ajuda.html">Fale Conosco</a>
-		</div>
-</div>
-
+ <div id="area-cabecalho">
+  		<div id="area-logo">
+      		<h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
+  		</div>
+  	<div id="area-menu">
+      <a href="http://localhost:8080/infoposto/web?action=HomeAction">Home</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmBlogAction">Blog</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmLoginAction">Login</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
+      <a href="http://localhost:8080/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
+  	</div>
+	</div>
 <body>
 
 	<div class="limiter">
