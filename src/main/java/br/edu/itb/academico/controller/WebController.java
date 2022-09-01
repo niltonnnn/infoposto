@@ -16,7 +16,7 @@ import br.edu.itb.academico.actions.Action;
  */
 
 // http://localhost:8080/infoposto/web?action=HomeAction
-
+//Lucas Alves
 // Guilherme Pereira
 
 @WebServlet(name= "AlunoController", urlPatterns= {"/web"})
