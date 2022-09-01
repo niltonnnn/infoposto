@@ -15,7 +15,6 @@
 
 <body>
     <div id="area-cabecalho">
-            
             <div id="area-logo">
                 <h1 href="file:///C:/Users/npalmeira/TCCFIEB/TCC/home/home.html">Info<span class="branco">Posto</span></h1>
             </div>
@@ -26,9 +25,7 @@
                 <a href="file:///Z:/TCCFIEB/InfoPosto/TCC/Tela%20de%20login/index.html#">Cadastre-se</a>
                 <a href="file:///C:/Users/npalmeira/TCCFIEB/TCC/Faleconosco/ajuda.html">Fale Conosco</a>
             
-            </div>
-            
-            
+            </div>         
         </div>
 
     <div class="col-100">
