@@ -84,7 +84,7 @@
 						</a>
 					</div>
 					<div class="text-center p-t-136">
-						<a class="txt2" href="file:///Z:/TCCFIEB/InfoPosto/TCC/Tela%20de%20login/index.html#">
+						<a class="txt2" href="http://localhost:8080/infoposto/web?action=FrmLoginAction">
 							Já possue cadastro? Faça login!
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>

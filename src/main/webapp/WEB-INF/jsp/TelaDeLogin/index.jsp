@@ -7,13 +7,13 @@
 	<title>InfoPosto-login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="images-login/icons/favicon.ico"/>
-	<link rel="stylesheet" type="text/css" href="CSS/vendor-login/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="CSS/fonts-login/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="CSS/vendor-login/animate/animate.css">
-	<link rel="stylesheet" type="text/css" href="CSS/vendor-login/select2/select2.min.css">
-	<link rel="stylesheet" type="text/css" href="CSS/css-login/util.css">
-	<link rel="stylesheet" type="text/css" href="CSS/css-login/main.css">
+	<link rel="icon" type="image/png" href="IMG/images/icons/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="CSS/css-formulariocadastro/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/css-formulariocadastro/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/css-formulariocadastro/vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="CSS/css-formulariocadastro/vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/css-formulariocadastro/css/util.css">
+	<link rel="stylesheet" type="text/css" href="CSS/css-formulariocadastro/css/main.css">
 </head>
 
  <div id="area-cabecalho">
@@ -68,7 +68,7 @@
 						</a>
 					</div>
 					<div class="text-center p-t-136">
-						<a class="txt2" href="file:///Z:/TCCFIEB/InfoPosto/TCC/formulario/formulario.html">
+						<a class="txt2" href="http://localhost:8080/infoposto/web?action=FrmCadastroUsuario">
 							Não tem login? Faça seu cadastro!
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
