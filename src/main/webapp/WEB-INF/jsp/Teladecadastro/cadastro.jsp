@@ -16,11 +16,11 @@
       		<h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
   		</div>
   	<div id="area-menu">
-      <a href="http://localhost:8080/infoposto/web?action=HomeAction">Home</a>
-      <a href="http://localhost:8080/infoposto/web?action=FrmBlogAction">Blog</a>
-      <a href="http://localhost:8080/infoposto/web?action=FrmLoginAction">Login</a>
-      <a href="http://localhost:8080/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
-      <a href="http://localhost:8080/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
+          <a href="/infoposto/web?action=HomeAction">Home</a>
+      <a href="/infoposto/web?action=FrmBlogAction">Blog</a>
+      <a href="/infoposto/web?action=FrmLoginAction">Login</a>
+      <a href="/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
+      <a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
   	</div>
 	</div>
 

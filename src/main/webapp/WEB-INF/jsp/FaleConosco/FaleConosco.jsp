@@ -21,11 +21,11 @@
       		<h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
   		</div>
   	<div id="area-menu">
-      <a href="http://localhost:8080/infoposto/web?action=HomeAction">Home</a>
-      <a href="http://localhost:8080/infoposto/web?action=FrmBlogAction">Blog</a>
-      <a href="http://localhost:8080/infoposto/web?action=FrmLoginAction">Login</a>
-      <a href="http://localhost:8080/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
-      <a href="http://localhost:8080/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
+      <a href="/infoposto/web?action=HomeAction">Home</a>
+      <a href="/infoposto/web?action=FrmBlogAction">Blog</a>
+      <a href="/infoposto/web?action=FrmLoginAction">Login</a>
+      <a href="/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
+      <a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
   	</div>
 	</div>
 
@@ -37,7 +37,7 @@
 				<div class="login100-pic js-tilt" data-tilt>
 					<img src="http://facewemarket.com.br/images/icon-central-07.png" alt="IMG">
 				</div>
-				<form class="login100-form validate-form">
+				<form action = "${pageContext.request.contextPath}/CadastrarFaleConoscoAction" method ="post" class="login100-form validate-form">
 					<span class="login100-form-title">
 						Fale conosco!
                     </span>
@@ -52,7 +52,7 @@
 						</span>
 					</div>
 					<div class="">
-						<input class="input1001" type="text">
+						<input class="input1001" name="message"type="text">
 						</span>
 					</div>
 					<div class="container-login100-form-btn">
