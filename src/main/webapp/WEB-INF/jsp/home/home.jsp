@@ -39,11 +39,11 @@
     <div class="col-100">
         <div class="content texto-destaque">
 
-            <h5>InfoPosto saiba tudo sobre o posto mais proximo a voc√™!</h5>
-            <p class="margem">&nbsp;&nbsp;&nbsp;InfoPosto surgiu com a ideia de poder solucionar um grande problema, a falta de informa√ß√µes
+            <h5>InfoPosto saiba tudo sobre o posto mais proximo a vocÍ!</h5>
+            <p class="margem">&nbsp;&nbsp;&nbsp;InfoPosto surgiu com a ideia de poder solucionar um grande problema, a falta de informaÁıes
                 sobre postos de gasolina na cidade de Barueri, ao qual o cliente estaria disposto a abastecer al√©m do mais, o InfoPosto trouxe outros
-                diversos servi√ßos como: Desconto no seu abastecimento atrav√©s do nosso app, Noticias diarias sobre o Petroleo, cadastro dos postos de combustiveis de Barueri.</p>
-                <p class="margem"> &nbsp;&nbsp;&nbsp;Venha conferir isso e muito mais aqui no InfoPosto, fa√ßa j√° o seu cadastro e comece a interajir com a nossa comunidade, ajudando-nos com a sua experiencia em cada abastecimento!</p>
+                diversos serviÁos como: Desconto no seu abastecimento atrav√©s do nosso app, Noticias diarias sobre o Petroleo, cadastro dos postos de combustiveis de Barueri.</p>
+                <p class="margem"> &nbsp;&nbsp;&nbsp;Venha conferir isso e muito mais aqui no InfoPosto, faÁa j·° o seu cadastro e comece a interajir com a nossa comunidade, ajudando-nos com a sua experiencia em cada abastecimento!</p>
 
             <main>
                 <ul class="produtos">
