@@ -1,24 +1,58 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Fale conosco</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" type="image/png" href="CSS/css-faleConosco/images/icons/favicon.ico"/>
+<head>
+<link
+	href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap"
+	rel="stylesheet">
+	<link rel="icon" type="image/png" href="CSS/css-faleConosco/images/icons/favicon.ico"/>
 		<link rel="stylesheet" type="text/css" href="CSS/css-faleConosco/css/vendor/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="CSS/css-faleConosco/css/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="CSS/css-faleConosco/css/vendor/animate/animate.css">
 		<link rel="stylesheet" type="text/css" href="CSS/css-faleConosco/css/vendor/select2/select2.min.css">
 		<link rel="stylesheet" type="text/css" href="CSS/css-faleConosco/css/util.css">
 		<link rel="stylesheet" type="text/css" href="CSS/css-faleConosco/css/main.css">
-	</head>
+</head>
+<style>
+#div-msg {
+	text-align: center;
+	padding: 40px 0;
+	background: #EBF0F5;
+}
+h1 {
+	color: #88B04B;
+	font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+p {
+	color: #404F5E;
+	font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+	font-size: 20px;
+	margin: 0;
+}
+i {
+	color: #9ABC66;
+	font-size: 100px;
+	line-height: 200px;
+	margin-left: -15px;
+}
+.card {
+	background: white;
+	padding: 60px;
+	border-radius: 4px;
+	box-shadow: 0 2px 3px #C8D0D8;
+	display: inline-block;
+	margin: 0 auto;
+}
+</style>
 <body>
 
  <div id="area-cabecalho">
   		<div id="area-logo">
-      		<h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
+      		<h1 href="/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
   		</div>
   	<div id="area-menu">
       <a href="/infoposto/web?action=HomeAction">Home</a>
@@ -27,65 +61,23 @@
       <a href="/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
       <a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
   	</div>
-	</div>
+</div>
 
-<body>
-
-	<div class="limiter">
-		<div class="container-login100">
-			<div class="wrap-login100">
-				<div class="login100-pic js-tilt" data-tilt>
-					<img src="http://facewemarket.com.br/images/icon-central-07.png" alt="IMG">
-				</div>
-				<form action = "${pageContext.request.contextPath}/CadastrarFaleConoscoAction" method ="post" class="login100-form validate-form">
-					<span class="login100-form-title">
-						Fale conosco!
-                    </span>
-                    <div class="wrap-input100 validate-input" data-validate = "Preencha o campo com o seu nome">
-						<input class="input100" type="nome" name="name" placeholder="Digite seu nome">
-					</div>
-					<div class="wrap-input100 validate-input" data-validate = "Digite um email válido: ex:fulano@hotmail.com">
-						<input class="input100" type="text" name="email" placeholder="Email">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</span>
-					</div>
-					<div class="">
-						<input class="input1001" name="message"type="text">
-						</span>
-					</div>
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							Enviar
-						</button>
-					</div>
-					<div class="text-center p-t-12">
-						<span class="txt1">
-							Esqueceu seu
-						</span>
-						<a class="txt2" href="#">
-							Email / Senha?
-						</a>
-					</div>
-				</form>
-			</div>
+ <div id="div-msg">
+  <div id="main-container">
+	<div class="card">
+		<div
+			style="border-radius: 200px; height: 200px; width: 200px; background: #F8FAF5; margin: 0 auto;">
+			<img src="./check.png"></img>
 		</div>
+		<h1>Sucesso</h1>
+		<p>
+			Cadastrado com sucesso!!!
+		</p>
 	</div>
-
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-	<script src="vendor/select2/select2.min.js"></script>
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-	<script src="css-faleConosco/js/main.js"></script>
-
-
+	</div>
+	</div>
+	
 	<footer>
 			<div class="container-footer">
 				<div class="row-footer">
@@ -126,7 +118,5 @@
 				</div>
 			</div>
 		</footer>
-
-
 </body>
 </html>

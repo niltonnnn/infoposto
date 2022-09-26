@@ -42,7 +42,7 @@
 				<div class="login100-pic js-tilt" data-tilt>
 					<img src="https://cdn-icons-png.flaticon.com/512/753/753399.png" alt="IMG">
 				</div>
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" method = "post" action="${pageContext.request.contextPath}/CadastrarUsuarioAction">
 					<span class="login100-form-title">
 						Cadastre-se!
 					</span>
@@ -57,7 +57,7 @@
 						</span>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Senha obrigadoria">
-						<input class="input100" type="password" name="pass" placeholder="Senha">
+						<input class="input100" type="password" name="senha" placeholder="Senha">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
