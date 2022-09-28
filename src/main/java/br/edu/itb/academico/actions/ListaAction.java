@@ -13,12 +13,12 @@ import javax.servlet.http.HttpServletResponse;
 
 import br.edu.itb.academico.database.ConnectionFactory;
 
-public class CadastroAction implements Action {
+public class ListaAction implements Action {
 
 	@Override
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		
-	 return "/WEB-INF/jsp/Teladecadastro/cadastro.jsp";
+	 return "/WEB-INF/jsp/ListaDePostos/ListaDePostos.jsp";
 	}
 	
 
