@@ -26,7 +26,7 @@ public class ConnectionFilter extends HttpFilter implements Filter {
 
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
 		
-         System.out.println("filtro...");
+  
          try {
         	// Connection connection = ConnectionFactory.getConnectionSqlServer();
         	// request.setAttribute("connection", connection);

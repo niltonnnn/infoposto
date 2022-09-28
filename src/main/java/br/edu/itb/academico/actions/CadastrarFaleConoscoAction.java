@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import br.edu.itb.academico.database.ConnectionFactory;
 @WebServlet("/CadastrarFaleConoscoAction")
-public class FrmInserirFaleConoscoAction extends HttpServlet  {
+public class CadastrarFaleConoscoAction extends HttpServlet  {
 	/**
 	 * 
 	 */
@@ -36,7 +36,7 @@ public class FrmInserirFaleConoscoAction extends HttpServlet  {
 			ps.setString(3, mensagem);
 			ps.execute();
 			
-			 request.getRequestDispatcher("/WEB-INF/jsp/FaleConosco/FaleConosco.jsp").forward(request, response);
+			 request.getRequestDispatcher("/WEB-INF/jsp/CadastroSucesso.jsp").forward(request, response);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
