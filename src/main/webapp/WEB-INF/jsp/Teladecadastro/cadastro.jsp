@@ -11,19 +11,7 @@
     <link href="css-teladecadastro/botstrapp.css" rel="stylesheet">
 </head>
 
- <div id="area-cabecalho">
-  		<div id="area-logo">
-      		<h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
-  		</div>
-  	<div id="area-menu">
-          <a href="/infoposto/web?action=HomeAction">Home</a>
-      <a href="/infoposto/web?action=FrmBlogAction">Blog</a>
-      <a href="/infoposto/web?action=FrmLoginAction">Login</a>
-      <a href="/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
-      <a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
-  	</div>
-	</div>
-
+<%@ include file="../menu.jsp" %>
 <body>
     <div>
         <p class="titulo"><b>Cadastre seu posto!</b></p>

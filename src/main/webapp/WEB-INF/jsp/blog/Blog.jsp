@@ -7,23 +7,12 @@
 <meta charset="ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/css-blog/home.css">
-    <title>TecBlog - Seu Blog de Tecnologia</title>
+    <title>InfoPosto - Blog</title>
 </head>
 
 <body>
 
-  <div id="area-cabecalho">
-  		<div id="area-logo">
-      		<h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
-  		</div>
-  	<div id="area-menu">
-      <a href="/infoposto/web?action=HomeAction">Home</a>
-      <a href="/infoposto/web?action=FrmBlogAction">Blog</a>
-      <a href="/infoposto/web?action=FrmLoginAction">Login</a>
-      <a href="/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
-      <a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
-  	</div>
-	</div>
+     <%@ include file="../menu.jsp" %>
 
     <div id="area-principal">
         <!-- abertura de postagem -->
@@ -84,7 +73,7 @@
     </div>
 
     <div id="rodape">
-        Todos os Direitos Reservados
+    <%@ include file="../footer.jsp" %>
     </div>
     
 </body>

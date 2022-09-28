@@ -20,7 +20,7 @@
 	padding: 40px 0;
 	background: #EBF0F5;
 }
-h1 {
+#sucesso {
 	color: #88B04B;
 	font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
 	font-weight: 900;
@@ -50,18 +50,7 @@ i {
 </style>
 <body>
 
- <div id="area-cabecalho">
-  		<div id="area-logo">
-      		<h1 href="/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
-  		</div>
-  	<div id="area-menu">
-      <a href="/infoposto/web?action=HomeAction">Home</a>
-      <a href="/infoposto/web?action=FrmBlogAction">Blog</a>
-      <a href="/infoposto/web?action=FrmLoginAction">Login</a>
-      <a href="/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
-      <a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
-  	</div>
-</div>
+    <%@ include file="menu.jsp" %>
 
  <div id="div-msg">
   <div id="main-container">
@@ -70,7 +59,7 @@ i {
 			style="border-radius: 200px; height: 200px; width: 200px; background: #F8FAF5; margin: 0 auto;">
 			<img src="./check.png"></img>
 		</div>
-		<h1>Sucesso</h1>
+		<h1 id="sucesso">Sucesso</h1>
 		<p>
 			Cadastrado com sucesso!!!
 		</p>

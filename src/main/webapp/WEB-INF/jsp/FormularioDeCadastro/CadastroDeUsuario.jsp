@@ -4,7 +4,8 @@
 <html>
 	<head>
 		<meta charset="ISO-8859-1">
-		<title>InfoPosto-cadastro</title>
+		<title>InfoPosto - Cadastro</title>
+		
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="IMG/images/icons/favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="CSS/css-formulariocadastro/vendor/bootstrap/css/bootstrap.min.css">
@@ -21,19 +22,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
- <div id="area-cabecalho">
-  		<div id="area-logo">
-      		<h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
-  		</div>
-  	<div id="area-menu">
-      <a href="/infoposto/web?action=HomeAction">Home</a>
-      <a href="/infoposto/web?action=FrmBlogAction">Blog</a>
-      <a href="/infoposto/web?action=FrmLoginAction">Login</a>
-      <a href="/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
-      <a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
-  	</div>
-	</div>
-
+<%@ include file="../menu.jsp" %>
 <body>
 
 	<div class="limiter">
@@ -72,19 +61,19 @@
 					</div>
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
-							Login
+							Cadastrar
 						</button>
 					</div>
-					<div class="text-center p-t-12">
-						<span class="txt1">
-							Esqueceu seu
-						</span>
-						<a class="txt2" href="#">
-							Email / Senha?
-						</a>
-					</div>
+<!-- 					<div class="text-center p-t-12"> -->
+<!-- 						<span class="txt1"> -->
+<!-- 							Esqueceu seu -->
+<!-- 						</span> -->
+<!-- 						<a class="txt2" href="#"> -->
+<!-- 							Email / Senha? -->
+<!-- 						</a> -->
+<!-- 					</div> -->
 					<div class="text-center p-t-136">
-						<a class="txt2" href="http://localhost:8080/infoposto/web?action=FrmLoginAction">
+						<a class="txt2" href="/infoposto/web?action=FrmLoginAction">
 							Já possue cadastro? Faça login!
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
@@ -107,48 +96,7 @@
 	<script src="js/main.js"></script>
 
 
-	<footer>
-			<div class="container-footer">
-				<div class="row-footer">
-					<!-- footer col-->
-					<div class="footer-col">
-						<h4>Empresa</h4>
-						<ul>
-							<li><a href=""> Quem somos </a></li>
-							<li><a href=""> Nossos serviços </a></li>
-							<li><a href=""> política de privacidade </a></li>
-							<li><a href=""> Nossos Parceiros</a></li>
-						</ul>
-					</div>
-					<!--end footer col-->
-					<!-- footer col-->
-					<div class="footer-col">
-						<h4>Obter ajuda</h4>
-						<ul>
-							<li><a href="#">Fale Conosco</a></li>
-							<li><a href="https://petrobras.com.br/pt/nossas-atividades/composicao-de-precos-de-venda-ao-consumidor/">Entenda a politica de preço da Petrobrás</a></li>
-						</ul>
-					</div>
-					<div class="footer-col">
-						<h4>Envie uma sugestão!</h4>
-						<div class="form-sub">
-							<form>
-								<input type="email" placeholder="Digite aqui sua sugestão" required>
-								<button>Enviar</button>
-							</form>
-						</div>
-	
-						<div class="medias-socias">
-							<a href="https://www.linkedin.com/login/pt"><img src="img/linkedin.png.png" alt=""> </a>
-							<a href="https://www.facebook.com/"><img src="img/face.png.png"></a>
-						</div>
-	
-					</div>
-				</div>
-			</div>
-		</footer>
-
-</body>
+	<%@ include file="../footer.jsp" %>
 </html>
 	
 
