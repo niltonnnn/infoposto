@@ -1,8 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-    <%@ taglib uri= "http://java.sun.com/jsp/jstl/fmt"  prefix="fmt" %>
-    
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,6 +12,19 @@
   </head>
 
     <body>
+        <div id="area-cabecalho">
+            <div id="area-logo">
+                <h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
+            </div>
+            <div id="area-menu">
+                <a href="/infoposto/web?action=HomeAction">Home</a>
+                <a href="/infoposto/web?action=FrmBlogAction">Blog</a>
+                <a href="/infoposto/web?action=FrmLoginAction">Login</a>
+                <a href="/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
+                <a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
+            </div>
+        </div>
+
         <div class="container">
             <div class="form-image">
                 <img src="https://cdn-icons-png.flaticon.com/512/753/753399.png" alt="IMG">
@@ -110,6 +118,48 @@
                 </div>
             </div>
         </div>
+
+        <footer>
+            <div class="container-footer">
+                <div class="row-footer">
+                    <!-- footer col-->
+                    <div class="footer-col">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href=""> Quem somos </a></li>
+                            <li><a href=""> Nossos serviços </a></li>
+                            <li><a href=""> Politica de privacidade </a></li>
+                            <li><a href=""> Nossos Parceiros</a></li>
+                        </ul>
+                    </div>
+                    <!--end footer col-->
+                    <!-- footer col-->
+                    <div class="footer-col">
+                        <h4>Obter ajuda</h4>
+                        <ul>
+                            <li><a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a></li>
+                            <li><a href="https://precos.petrobras.com.br/">Entenda a politica de preços da Petrobras</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+    <!--                     <h4>Envie uma sugestão!</h4> -->
+    <!--                     <div class="form-sub"> -->
+    <!--                         <form> -->
+    <!--                             <input type="text" placeholder="Digite aqui sua sugestÃ£o" required> -->
+    <!--                             <button>Enviar</button> -->
+    <!--                         </form> -->
+    <!--                     </div> -->
+    
+                        <div class="medias-socias">
+                            <a href="https://www.linkedin.com/login/pt"><img src="IMG/img-home/linkedin.png.png" alt=""> </a>
+                            <a href="https://www.facebook.com/"><img src="IMG/img-home/face.png.png"></a>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </footer>
+            
     </body>
 
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
