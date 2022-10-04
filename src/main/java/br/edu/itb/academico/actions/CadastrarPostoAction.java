@@ -4,51 +4,48 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import br.edu.itb.academico.database.ConnectionFactory;
 
-@WebServlet("/LoginAction")
-public class LoginAction extends HttpServlet {
-
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-
+@WebServlet("/CadastrarPostoAction")
+public class CadastrarPostoAction {
+	
+	private static final long serialVersionUID = 1L; 
+	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		try {
 				
 				Connection con = ConnectionFactory.getConnectionSqlServer();
-				String email,senha;
-				
+				String nomedono,nomeposto,endereco,bairro,email,numero,cnpj,valorcombustivel,senhausuario,bandeira;
+				nomedono = request.getParameter("nomedono");
+				nomeposto = request.getParameter("nomeposto");
+				endereco = request.getParameter("endereco");
+				bairro = request.getParameter("bairro");
 				email = request.getParameter("email");
-				senha = request.getParameter("senha");
-				boolean status;
+				numero = request.getParameter("numero");
+				cnpj = request.getParameter("cnpj");
+				valorcombustivel = request.getParameter("valorcombustivel");
+				senhausuario = request.getParameter("senhausuario");
+
+				PreparedStatement ps = con.prepareStatement("INSERT INTO tbPosto (NomeDono, nomeposto, Endereco , Bairro , email, Telefone, CNPJ, ValorDoCombustivel, SenhaDeUsuario) VALUES(?,?,?,?,?,?,?,?,?)");
+				ps.setString(1, nomedono);
+				ps.setString(2, nomeposto);
+				ps.setString(3, endereco);
+				ps.setString(4, bairro);
+				ps.setString(5, email);
+				ps.setString(6, numero);
+				ps.setString(7, cnpj);
+				ps.setString(8, valorcombustivel);
+				ps.setString(9, senhausuario);
+				ps.execute();
 				
-				PreparedStatement ps = con.prepareStatement("SELECT * FROM tbLogin WHERE EMAIL = ? AND SENHA = ?");
-				ps.setString(1, email);
-				ps.setString(2, senha);
-			    ResultSet rs = ps.executeQuery();
-			    status = rs.next();   
-			    if(status) {
-			    System.out.print("logado");	
-			    request.getRequestDispatcher("/WEB-INF/jsp/Teladecadastro/cadastro.jsp").forward(request, response);
-			    	
-			    }else {
-			     System.out.print("inválido");	
-			     request.getRequestDispatcher("/WEB-INF/jsp/TelaDeLogin/index.jsp?error=true").forward(request, response);
-			     
-			    }
-				
-			    request.getRequestDispatcher("/WEB-INF/jsp/ListaDePostos/ListaDePostos.jsp").forward(request, response);
+				 request.getRequestDispatcher("/WEB-INF/jsp/CadastroSucesso.jsp").forward(request, response);
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -75,8 +72,5 @@ public class LoginAction extends HttpServlet {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
-		}
-
-	
+}
 }

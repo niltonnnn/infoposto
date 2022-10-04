@@ -1,3 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+    <%@ taglib uri= "http://java.sun.com/jsp/jstl/fmt"  prefix="fmt" %>
 <!DOCTYPE html>
 <html>
   <head>
@@ -44,11 +48,11 @@
                         </div>
                         <div class="input-box">
                             <label for="NomeDono">Nome do dono do Posto</label>
-                            <input id="NomeDono" type="text" name="NomeDono" placeholder="Digite seu nome e sobrenome" required>
+                            <input id="NomeDono" type="text" name="nomedono" placeholder="Digite seu nome e sobrenome" required>
                         </div>
                         <div class="input-box">
                             <label for="Endereço">Endereço</label>
-                            <input id="Endereço" type="text" name="text" placeholder="Digite seu endereço" required>
+                            <input id="Endereço" type="text" name="endereco" placeholder="Digite seu endereço" required>
                         </div>
                         <div class="input-box">
                             <label for="bairro">Bairro</label>
@@ -68,11 +72,11 @@
                         </div>
                         <div class="input-box">
                             <label for="combustivel">Valor do combústivel</label>
-                            <input id="combustivel" type="text" name="combustivel" placeholder="R$ 5,50" maxlength="4" required>
+                            <input id="combustivel" type="text" name="valorcombustivel" placeholder="R$ 5,50" maxlength="4" required>
                         </div>
                         <div class="input-box">
                             <label for="Senha">Senha de usuario</label>
-                            <input id="Senha" type="password" name="senha" placeholder="Digite sua senha de usuario" required>
+                            <input id="Senha" type="password" name="senhausuario" placeholder="Digite sua senha de usuario" required>
                         </div>
                         
     
