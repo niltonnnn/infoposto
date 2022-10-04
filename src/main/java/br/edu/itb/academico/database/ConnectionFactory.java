@@ -10,6 +10,7 @@ import java.sql.SQLException;
 public abstract class ConnectionFactory {
 	
 	public static Connection conn = null;
+
 	private final static String  URLSQLSERVER = "jdbc:sqlserver://localhost:1433;"
 			+ "user=sa;password=@ITB123456;databaseName=InfoPosto";
 

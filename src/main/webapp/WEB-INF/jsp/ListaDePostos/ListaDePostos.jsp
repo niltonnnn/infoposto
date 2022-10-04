@@ -92,11 +92,26 @@
                 <h2 class="ze1">Rua jardim belval</h2>
             </div>
         </div>
+        <hr>
+        <div class="Posto5">
+            <div class="imagem1"><img class="imagem" src="https://site.zuldigital.com.br/blog/wp-content/uploads/2020/09/shutterstock_339529217_Easy-Resize.com_.jpg" height="75px" width="90px" ></div>
+            <ul class="avaliacao">
+                <li class="star-icon ativo" data-avaliacao="1"></li>
+                <li class="star-icon ativo" data-avaliacao="2"></li>
+                <li class="star-icon ativo" data-avaliacao="3"></li>
+                <li class="star-icon ativo" data-avaliacao="4"></li>
+                <li class="star-icon" data-avaliacao="5"></li>
+            </ul>
+        <div class="texto" >
+          <b class="ze">Posto do seu zé</b>
+          <h2 class="ze1">Rua jardim belval</h2>
+        </div>
+        </div>
       </div>
       
       <!-- Butao de cadastro-->
       <div>
-        <a class="butaoo" href="https://www.shell.com.br/shellenergy.html?gclid=CjwKCAjw4c-ZBhAEEiwAZ105RaQZQtPN6dIr8yhWRYplKOX0fhJECagJbap57r9cma0edLNKYlHgDxoCyq4QAvD_BwE">
+        <a class="butaoo" href="http://localhost:8080/infoposto/web?action=FrmCadastroDePosto">
             <button class="butao">Cadastre seu posto</button>
         </a>
       </div>
@@ -227,6 +242,38 @@
             </ul>  
         </div>
       </div>
+      
+      <div id="modal-Posto5" class="modal-container"> 
+        <div class="modal">
+            <button class="fechar">X</button>
+            <div class="imagem1"><img class="imagem" src="https://site.zuldigital.com.br/blog/wp-content/uploads/2020/09/shutterstock_339529217_Easy-Resize.com_.jpg" height="90px" width="130px"></div>
+            <ul class="avaliacao">
+                <li class="star-icon ativo" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li>
+                <li class="star-icon" data-avaliacao="3"></li>
+                <li class="star-icon" data-avaliacao="4"></li>
+                <li class="star-icon" data-avaliacao="5"></li>
+                
+            </ul>  
+            <button class="valor">Gasolina R$ 5.50</button>
+            <button class="valor1">Etanol  R$ 5.00</button>
+            <div class="texto" >
+                <b class="ze">Posto do seu zé</b>
+                <a href="https://www.shell.com.br/shellenergy.html?gclid=CjwKCAjw4c-ZBhAEEiwAZ105RaQZQtPN6dIr8yhWRYplKOX0fhJECagJbap57r9cma0edLNKYlHgDxoCyq4QAvD_BwE"><img class="Marca" src="https://logodownload.org/wp-content/uploads/2014/07/shell-logo-0.png" width="25px" height="25px"></a>
+                <h2 class="ze1">Rua jardim belval</h2>
+                
+            </div>
+            <hr>
+            <ul class="">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58528.344946130026!2d-46.94597482681276!3d-23.531726982886298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf010a298f663b%3A0x73313192e984e8cc!2sPosto%20Petrobras!5e0!3m2!1spt-BR!2sbr!4v1664378900224!5m2!1spt-BR!2sbr" width="50%" height="180" frameborder="0" style="border: 2px;" allowfullscreen=""></iframe>
+                <li><p><i class="material-icons">shopping_cart_checkout</i> Mercado </p></li>
+                <li><p><i class="material-icons">sanitizer</i> Lava Rápido</p></li>
+                <li><p><i class="material-icons">car_repair</i> Mecânica </p></li>
+                <li><p><i class="material-icons">electric_car</i> Carregador para carro elêtrico </p></li>
+                
+            </ul>  
+        </div>
+      </div>
 
       
 
@@ -265,6 +312,9 @@
 
         const Posto4 = document.querySelector('.Posto4');
         Posto4.addEventListener('click', () => iniciaModal('modal-Posto4'));
+        
+        const Posto5 = document.querySelector('.Posto5');
+        Posto5.addEventListener('click', () => iniciaModal('modal-Posto5'));
         
 
       </script>
