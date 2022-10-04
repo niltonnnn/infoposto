@@ -40,11 +40,11 @@ public class LoginAction extends HttpServlet {
 			    status = rs.next();   
 			    if(status) {
 			    System.out.print("logado");	
-			    request.getRequestDispatcher("/WEB-INF/jsp/Teladecadastro/cadastro.jsp").forward(request, response);
+			    request.getRequestDispatcher("/WEB-INF/jsp/ListaDePostos/ListaDePostos.jsp").forward(request, response);
 			    	
 			    }else {
 			     System.out.print("inválido");	
-			     request.getRequestDispatcher("/WEB-INF/jsp/TelaDeLogin/index.jsp?error=true").forward(request, response);
+			     request.getRequestDispatcher("/WEB-INF/jsp/Erro.jsp").forward(request, response);
 			     
 			    }
 				
