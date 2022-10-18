@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    background: #ffffff;
+    font-size: 0.92em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* Layout */
+
+#area-cabecalho {
+    background: #1d1c1c;
+    padding: 10px;
+    text-align: center;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#area-menu, #area-logo {
+    padding: 5px;
+}
+
+/* Formatação do Menu */
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #FFF;
+    padding: 5px 12px;
+}
+
+#area-cabecalho a:hover {
+    background: #00D3AD;
+    color:#000000;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+
+h1 {
+    color: #00D3AD;
+    font-size: 2.6em;
+}
+
+
+.branco {
+    color: white;
+    font-size: 1.0em;
+}
+
+.titulo {
+	text-align: center;
+	font-size: 23px;
+    padding: auto;
+    height: -300px;
+}
+
+.imagem {
+	border: 1px solid;
+	border-radius: 15px;
+	
+}
+
+.div1 {
+    width: 1200px;
+    margin: 50px auto;
+	padding: 50px;
+	border-radius: 1px;
+}
+
+/* conteudo */
+
+
+.imagem1 {
+    float: left;
+    margin: 0;
+   padding: 20px;
+}
+.texto {
+    float: rigth;
+    margin: 0;
+   padding: 25px;
+}
+
+.ze {
+	font-size: 18px;
+}
+
+.ze1 {
+	font-size: 17px;
+	color: gray;
+}
+
+hr{
+	border-color: #00ffff; 
+}
+
+.avaliacao{
+    display: flex;
+    float: right;
+}
+
+.mapa {
+    display: flex;
+    float: right;
+    border-radius: 15px;
+    border: 2px;
+}
+
+.valor {
+    display: flex;
+    float: right;
+    background-color: #211f1f;
+    color: #00ffff;
+    border-radius: 10px;
+    width: 144px;
+    height: 25px;
+    text-align: center;
+    position: absolute;
+    font-style: bold;
+    top: 100px;
+    right: 40px;
+    font-family: 'PT Mono', monospace;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3);
+    font-weight: bold;
+}
+
+.valor1 {
+    display: flex;
+    float: right;
+    background-color: #211f1f;
+    color: #00ffff;
+    border-radius: 10px;
+    width: 144px;
+    height: 25px;
+    text-align: center;
+    position: absolute;
+    font-style: bold;
+    top: 130px;
+    right: 40px;
+    font-family: 'PT Mono', monospace;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3);
+    font-weight: bold;
+}
+
+.star-icon{
+    list-style-type: none;
+    border: 2px solid #fff;
+    cursor: pointer;
+    color: #00D3AD;
+    font-size: 30px;
+  }
+
+.star-icon::before{
+    content: "\2605";
+}
+  
+.star-icon.ativo ~ .star-icon::before{
+    content: "\2606";
+}
+  
+.avaliacao:hover .star-icon::before{
+    content: "\2605";
+}
+  
+.star-icon:hover ~ .star-icon::before{
+    content: "\2606";
+}
+
+/* modal */
+.modal-container {
+    width: 220vh;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container.mostrar {
+    display: flex;
+}
+
+.modal {
+    height: 320px;
+    background-color: white;
+    border-radius: 15px;
+    width: 70%;
+    min-width: 200px;
+    padding: 40px;
+    border: 2px solid #00ffff;
+    position: relative;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0, 0);
+    }
+}
+
+.mostrar .modal {
+    animation: modal .3s;
+}
+
+.fechar {
+    position: absolute;
+    font-size: 1.4em;
+    font-style: bold;
+    top: -15px;
+    right: -15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #00D3AD;
+    color: black;
+    font-family: 'PT Mono', monospace;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3);
+}
+
+.butao {
+    font-size: 16px;
+    width: 180px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: #00D3AD;
+    color: #000000;
+    border: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.butao:hover {
+    background-color: rgb(57, 54, 54);
+    color: #00D3AD;
+}
+.butaoo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 20px;
+    display: block;
+    justify-content: center;
+    width: 10em;
+    height: 3em;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+footer{
+    background-color: #000000;
+    padding: 25px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 30%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 19px;
+    color: #00D3AD;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #00D3AD;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.2s ease;
+}
+.footer-col ul li a:hover{
+    color: #00D3AD;
+    padding-left: 10px;
+}
+.footer-col .medias-socias{
+    margin-top: 30px;
+}
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #00D3AD;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover{
+    color: #00D3AD;
+    background-color: white;
+}
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 7px;
+    font-size: 13px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #000000;
+}
+.footer-col .form-sub input::placeholder{
+    color: white;
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px; 
+    font-size: 13px;
+    outline: none;
+    border: 15px;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #00D3AD;       
+}
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
+
+.p{
+    font-size: 25px;
+}
