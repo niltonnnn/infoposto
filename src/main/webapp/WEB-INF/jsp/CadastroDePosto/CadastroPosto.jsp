@@ -34,7 +34,7 @@
                 <img src="https://cdn-icons-png.flaticon.com/512/753/753399.png" alt="IMG">
             </div>
             <div class="form">
-                <form action="#">
+                <form action="#" method = "post" action="${pageContext.request.contextPath}/CadastrarPostoAction">
                     <div class="form-header">
                         <div class="title">
                             <h1>Cadastre seu Posto!</h1>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="input-box">
                             <label for="NomeDono">Nome do dono do Posto</label>
-                            <input id="NomeDono" type="text" name="nomedono" placeholder="Digite seu nome e sobrenome" required>
+                            <input id="nomedono" type="text" name="nomedono" placeholder="Digite seu nome e sobrenome" required>
                         </div>
                         <div class="input-box">
                             <label for="Endereço">Endereço</label>
@@ -118,7 +118,7 @@
                     
                 </form>
                 <div class="continue-button">
-                    <button><a href="#">Cadastrar</a></button>
+                    <button>Cadastrar</button>
                 </div>
             </div>
         </div>
