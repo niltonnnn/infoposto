@@ -57,7 +57,7 @@ i {
 	<div class="card">
 		<div
 			style="border-radius: 200px; height: 200px; width: 200px; background: #F8FAF5; margin: 0 auto;">
-			<img src="./check.png"></img>
+			<img src="https://cdn.icon-icons.com/icons2/2596/PNG/512/success_icon_154786.png" height="200px"></img>
 		</div>
 		<h1 id="sucesso">Sucesso</h1>
 		<p>
