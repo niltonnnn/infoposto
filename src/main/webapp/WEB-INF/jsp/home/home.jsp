@@ -28,12 +28,6 @@
     <div class="col-100">
         <div class="content texto-destaque">
 
-            <h5>InfoPosto saiba tudo sobre o posto mais proximo a você!</h5>
-            <p class="margem">&nbsp;&nbsp;&nbsp;InfoPosto surgiu com a ideia de poder solucionar um grande problema, a falta de informações
-                sobre postos de gasolina na cidade de Barueri, ao qual o cliente estaria disposto a abastecer além do mais, o InfoPosto trouxe outros
-                diversos serviços como: Desconto no seu abastecimento através do nosso app, Noticias diarias sobre o Petroleo, cadastro dos postos de combustiveis de Barueri.</p>
-                <p class="margem"> &nbsp;&nbsp;&nbsp;Venha conferir isso e muito mais aqui no InfoPosto, faÃ§a jÃ¡ o seu cadastro e comece a interajir com a nossa comunidade, ajudando-nos com a sua experiencia em cada abastecimento!</p>
-
             <main>
                 <ul class="produtos">
                     <li>
@@ -44,15 +38,15 @@
                     </li>
                     <li>
                         <h2>Noticias</h2>
-                        <img src="IMG/img-home/news.png">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2495/2495007.png" height="220px">
                         <p class="produto-descricao"><b>Noticias Diarias</b></p>
-                        <p class="produto-descricao1">Aqui no InfoPosto você fica por dentro de tudo o que acontece no mercado de petroleo, desde a cotação do barril de petroleo, Noticias em gerais que possam te impactar no seu dia a dia.</p>
+                        <p class="produto-descricao1">Aqui no InfoPosto vocï¿½ fica por dentro de tudo o que acontece no mercado de petroleo, desde a cotaï¿½ï¿½o do barril de petroleo, Noticias em gerais que possam te impactar no seu dia a dia.</p>
                     </li>
                     <li>
-                        <h2>Faça Parte!</h2>
-                        <img src="IMG/img-home/maoo.png">
+                        <h2>Faï¿½a Parte!</h2>
+                        <img src="https://cdn-icons-png.flaticon.com/512/1006/1006657.png" height="220px">
                         <p class="produto-descricao1"><b>Cadastre seu Posto</b></p>
-                        <p class="produto-preco">Tem um posto de gasolina ou conhece alguém que possua? Cadastre e venha fazer parte da equipe de postos do InfoPosto.</p>
+                        <p class="produto-preco">Tem um posto de gasolina ou conhece alguï¿½m que possua? Cadastre e venha fazer parte da equipe de postos do InfoPosto.</p>
                     </li>
                 </ul>
             </main>
@@ -62,7 +56,7 @@
 
         <section class="mapa">
 				<h2 class="titulo-principal">Nossos Parceiros</h2>
-				<p class="texto-mapa">Diversos postos proximo a você!</p>
+				<p class="texto-mapa">Diversos postos proximo a vocï¿½!</p>
 
 				<div class="mapa-conteudo">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d117075.80907475454!2d-46.952562912089455!3d-23.51022771514106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spostos%20de%20gasolina%20em%20barueri!5e0!3m2!1spt-BR!2sbr!4v1650071393908!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border: 2px;" allowfullscreen=""></iframe>
