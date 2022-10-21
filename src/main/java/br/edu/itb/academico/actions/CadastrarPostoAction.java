@@ -16,6 +16,8 @@ import br.edu.itb.academico.database.ConnectionFactory;
 @WebServlet("/CadastrarPostoAction")
 public class CadastrarPostoAction {
 	
+	//https://www.4devs.com.br/gerador_de_cnpj
+	
 	private static final long serialVersionUID = 1L; 
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -33,7 +35,7 @@ public class CadastrarPostoAction {
 				valorcombustivel = request.getParameter("valorcombustivel");
 				senhausuario = request.getParameter("senhausuario");
 
-				PreparedStatement ps = con.prepareStatement("INSERT INTO tbPosto (NomeDono, nomeposto, Endereco , Bairro , email, Telefone, CNPJ, ValorDoCombustivel, SenhaDeUsuario) VALUES(?,?,?,?,?,?,?,?,?)");
+				PreparedStatement ps = con.prepareStatement("INSERT INTO tbPosto (nomedono, nomeposto, endereco , bairro , email, numero, cnpj, valordocombustivel, senhausuario)VALUES(?,?,?,?,?,?,?,?,?)");
 				ps.setString(1, nomedono);
 				ps.setString(2, nomeposto);
 				ps.setString(3, endereco);
