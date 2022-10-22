@@ -18,19 +18,6 @@ INSERT INTO tbFaleConosco(Nome,Email,Mensagem) VALUES ('Marcos Xavier','marcosxa
 INSERT INTO tbFaleConosco(Nome,Email,Mensagem) VALUES ('Maria Silva','maria.silva@gmail.com','Gostei muito da aplicação nota 10!!')
 GO
 
-CREATE TABLE tbPosto(RazaoSocial VARCHAR(50), Cnpj VARCHAR(14), Endereco VARCHAR(100), Numero VARCHAR(5), Cidade VARCHAR (40), Bairro VARCHAR(50), Cep VARCHAR(08), Bandeira VARCHAR(50))
-GO
-INSERT INTO tbPosto(RazaoSocial,Cnpj,Endereco,Numero,Cidade,Bairro,Cep,Bandeira) VALUES ('Auto Posto Corredor Oeste Ltda','24125439000109', 'Rua Anhanguera', '30', 'Barueri', 'Centro','06442050','Petrobras')
-INSERT INTO tbPosto(RazaoSocial,Cnpj,Endereco,Numero,Cidade,Bairro,Cep,Bandeira) VALUES ('Portal Estrela de Barueri','20538619000161','Estrada Velha de Itapevi', 2341, 'Barueri','Jardim Paulista','06444000', 'Ipiranga')
-INSERT INTO tbPosto(RazaoSocial,Cnpj,Endereco,Numero,Cidade,Bairro,Cep,Bandeira) VALUES ('Auto Posto Avenida Zelia','14412870000182','Avenida Zelia', '158', 'Barueri', 'Parque dos Camargos','06436000', 'Ale')
-INSERT INTO tbPosto(RazaoSocial,Cnpj,Endereco,Numero,Cidade,Bairro,Cep,Bandeira) VALUES ('Auto Posto Tank Cheio Ltda', '56051212000152','AV HENRIQUE GONCALVES BATISTA', '1300','Barueri', 'Centro', '06420130','Ipiranga')
-INSERT INTO tbPosto(RazaoSocial,Cnpj,Endereco,Numero,Cidade,Bairro,Cep,Bandeira) VALUES ('Auto Posto Engenho Novo','06051212000153','Avenida Capitão Francisco Cesar','15','Barueri','Engenho novo','06415970','Shell')
-INSERT INTO tbPosto(RazaoSocial,Cnpj,Endereco,Numero,Cidade,Bairro,Cep,Bandeira) VALUES ('Auto Posto Jardim Silveira','16051210000153','Avenida Birgadeiro Jordão', '1830','Barueri','Jardim Silveira','06433010','Ale')
-INSERT INTO tbPosto(RazaoSocial,Cnpj,Endereco,Numero,Cidade,Bairro,Cep,Bandeira) VALUES ('Auto Posto Parque Imperial','26031202000255','Rua Padre Cícero Romão Batista', '1800', 'Barueri','Parque imperial','06462010','Ale')
-INSERT INTO tbPosto(RazaoSocial,Cnpj,Endereco,Numero,Cidade,Bairro,Cep,Bandeira) VALUES ('Auto Posto Parque Viana','36151012000106','Estrada dos Pinheiros','1622', 'Barueri','Parque Viana','06449000', 'Ale')
-INSERT INTO tbPosto(RazaoSocial,Cnpj,Endereco,Numero,Cidade,Bairro,Cep,Bandeira) VALUES ('Auto Posto Aldeia da Serra','46121002000157', 'Avenida Aquário', '450','Barueri','Aldeia da Serra', '06429431', 'Petrobras')
-INSERT INTO tbPosto(RazaoSocial,Cnpj,Endereco,Numero,Cidade,Bairro,Cep,Bandeira) VALUES ('Auto Posto Vale do Sol','02051200000153','Rua Barcelona', '145', 'Barueri','Vale do Sol','06437130','Shell')
-INSERT INTO tbPosto(RazaoSocial,Cnpj,Endereco,Numero,Cidade,Bairro,Cep,Bandeira) VALUES ('Auto Posto Alphaville','06001002000135','Alameda Araguaia','1530','Barueri','Alphaville','06455000','Shell')
 
 CREATE TABLE tbCliente(Nome VARCHAR(50), Cpf VARCHAR(11),Sexo CHAR(2), Telefone VARCHAR(9), Endereco VARCHAR(100), Numero VARCHAR(5), Cidade VARCHAR (40), Bairro VARCHAR(50), Cep VARCHAR(08), Email VARCHAR(50))
 GO
@@ -83,5 +70,17 @@ PRIMARY KEY CLUSTERED
 GO
 
 
+GO
+CREATE TABLE tbPosto(
+NomeDono VARCHAR(50),
+NomePosto VARCHAR(40),
+Endereco VARCHAR(100),
+Bairro VARCHAR(20),
+Numero varchar(10),
+Email VARCHAR(30),
+ValorCombustivel decimal,
+SenhaUsuario VARCHAR(20) )
+-- tbPosto (nomedono, nomeposto, endereco , bairro , email, numero, cnpj, valordocombustivel, senhausuario)
 
 
+SELECt*FROM tbPosto

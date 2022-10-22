@@ -18,7 +18,7 @@
     <body>
         <div id="area-cabecalho">
             <div id="area-logo">
-                <h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
+                <h1 href="/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
             </div>
             <div id="area-menu">
                 <a href="/infoposto/web?action=HomeAction">Home</a>
@@ -34,7 +34,7 @@
                 <img src="https://cdn-icons-png.flaticon.com/512/753/753399.png" alt="IMG">
             </div>
             <div class="form">
-                <form action="#" method = "post" action="${pageContext.request.contextPath}/CadastrarPostoAction">
+                <form method = "post" action="${pageContext.request.contextPath}/CadastrarPostoAction">
                     <div class="form-header">
                         <div class="title">
                             <h1>Cadastre seu Posto!</h1>
@@ -115,11 +115,12 @@
                         </div>
                         
                     </div>
-                    
-                </form>
-                <div class="continue-button">
-                    <button>Cadastrar</button>
+                    <div class="continue-button">
+                <button type="submit" >Cadastrar</button>	
                 </div>
+                        
+                </form>
+                
             </div>
         </div>
 

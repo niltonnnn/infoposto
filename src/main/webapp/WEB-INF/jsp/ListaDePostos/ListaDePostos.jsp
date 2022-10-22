@@ -17,7 +17,7 @@
   <body>
     <div id="area-cabecalho">
         <div id="area-logo">
-            <h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
+            <h1 href="/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
         </div>
         <div id="area-menu">
             <a href="/infoposto/web?action=HomeAction">Home</a>
@@ -111,7 +111,7 @@
       
       <!-- Butao de cadastro-->
       <div>
-        <a class="butaoo" href="http://localhost:8080/infoposto/web?action=FrmCadastroDePosto">
+        <a class="butaoo" href="/infoposto/web?action=FrmCadastroDePosto">
             <button class="butao">Cadastre seu posto</button>
         </a>
       </div>
