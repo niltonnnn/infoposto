@@ -6,6 +6,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,6 +17,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import br.edu.itb.academico.database.ConnectionFactory;
+import br.edu.itb.academico.model.Posto;
 
 @WebServlet("/LoginAction")
 public class LoginAction extends HttpServlet {
@@ -40,6 +44,7 @@ public class LoginAction extends HttpServlet {
 			    status = rs.next();   
 			    if(status) {
 			    System.out.print("logado");	
+				
 			    request.getRequestDispatcher("/WEB-INF/jsp/ListaDePostos/ListaDePostos.jsp").forward(request, response);
 			    	
 			    }else {

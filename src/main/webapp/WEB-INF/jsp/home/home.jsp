@@ -20,7 +20,7 @@
         <div class="slider-principal">
             <!--<img src="./img/imagem-principal1.jpg" />
             <img src="./img/imagem-principal2.jpg" /> -->
-            <img src="IMG/img-home/posto_home2.jpg" />
+            <img style="height:30vw" src="IMG/img-home/posto_home2.jpg" />
         </div>
     </div>
 
@@ -30,23 +30,23 @@
 
             <main>
                 <ul class="produtos">
-                    <li>
+                    <li style="height:30vw">
                         <h2><b>Desconto</b></h2>
                         <img src="IMG/img-home/desconto.png">
                         <p class="produto-descricao"><b>Ganhe Desconto</b></p>
                         <p class="produto-descricao1">Ao baixar e instalar o nosso app, avaliando o atendimento do posto tem direito a 5% de desconto</p>
                     </li>
-                    <li>
+                    <li style="height:30vw">
                         <h2>Noticias</h2>
                         <img src="https://cdn-icons-png.flaticon.com/512/2495/2495007.png" height="220px">
                         <p class="produto-descricao"><b>Noticias Diarias</b></p>
-                        <p class="produto-descricao1">Aqui no InfoPosto vocï¿½ fica por dentro de tudo o que acontece no mercado de petroleo, desde a cotaï¿½ï¿½o do barril de petroleo, Noticias em gerais que possam te impactar no seu dia a dia.</p>
+                        <p class="produto-descricao1">Aqui no InfoPosto você fica por dentro de tudo o que acontece no mercado de petroleo, desde a cotação do barril de petroleo, Noticias em gerais que possam te impactar no seu dia a dia.</p>
                     </li>
-                    <li>
-                        <h2>Faï¿½a Parte!</h2>
+                    <li style="height:30vw">
+                        <h2>Faça Parte!</h2>
                         <img src="https://cdn-icons-png.flaticon.com/512/1006/1006657.png" height="220px">
                         <p class="produto-descricao1"><b>Cadastre seu Posto</b></p>
-                        <p class="produto-preco">Tem um posto de gasolina ou conhece alguï¿½m que possua? Cadastre e venha fazer parte da equipe de postos do InfoPosto.</p>
+                        <p class="produto-preco">Tem um posto de gasolina ou conhece alguém que possua? Cadastre e venha fazer parte da equipe de postos do InfoPosto.</p>
                     </li>
                 </ul>
             </main>

@@ -48,7 +48,7 @@ public class CadastrarPostoAction extends HttpServlet   {
 				ps.setString(8, senhausuario);
 				ps.execute();
 				
-				 request.getRequestDispatcher("/WEB-INF/jsp/CadastroSucesso.jsp").forward(request, response);
+				 request.getRequestDispatcher("/WEB-INF/jsp/ListaDePostos/ListaDePostos.jsp").forward(request, response);
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -76,4 +76,6 @@ public class CadastrarPostoAction extends HttpServlet   {
 				e.printStackTrace();
 			}
 }
+
+	
 }
