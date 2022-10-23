@@ -20,7 +20,7 @@
         <div class="slider-principal">
             <!--<img src="./img/imagem-principal1.jpg" />
             <img src="./img/imagem-principal2.jpg" /> -->
-            <img style="height:30vw" src="IMG/img-home/posto_home2.jpg" />
+            <img  src="IMG/img-home/posto_home2.jpg" />
         </div>
     </div>
 
