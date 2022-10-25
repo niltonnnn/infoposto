@@ -40,22 +40,7 @@ INSERT INTO tbCliente(Nome,Cpf, Sexo,Telefone,Endereco, Numero,Cidade,Bairro,Cep
 INSERT INTO tbCliente(Nome,Cpf, Sexo,Telefone,Endereco, Numero,Cidade,Bairro,Cep,Email) VALUES ('Tereza Souza', '23968522461', 'M','915944597', 'Avenida Municipal','87','Jandira','Centro','08747070','tereza.souza@outlook.com.br')
 INSERT INTO tbCliente(Nome,Cpf, Sexo,Telefone,Endereco, Numero,Cidade,Bairro,Cep,Email) VALUES ('Ed Carlos Alves', '27593520703', 'M','915944590','Rua Vera Cruz','14','Carapicuiba','Jardim Paulista','06423010','edcarlosalves@uol.com.br')
 
-CREATE TABLE tbServicos(Servicos VARCHAR(50), Codigo VARCHAR(4),)
-GO
-INSERT INTO tbServicos(Servicos,Codigo) VALUES ('Troca de oleo', '0010')
-INSERT INTO tbServicos(Servicos,Codigo) VALUES ('Ducha', '0020')
-INSERT INTO tbServicos(Servicos,Codigo) VALUES ('Loja de Conveniencia', '0030')
-INSERT INTO tbServicos(Servicos,Codigo) VALUES ('Calibragem de Pneus', '0040')
-INSERT INTO tbServicos(Servicos,Codigo) VALUES ('Borracharia', '0050')
-INSERT INTO tbServicos(Servicos,Codigo) VALUES ('Oficina Mecanica', '0060')
-INSERT INTO tbServicos(Servicos,Codigo) VALUES ('Mini Mercado', '0070') 
-INSERT INTO tbServicos(Servicos,Codigo) VALUES ('Caixa 24 horas', '0080') 
-INSERT INTO tbServicos(Servicos,Codigo) VALUES ('Farmacia', '0090') 
-INSERT INTO tbServicos(Servicos,Codigo) VALUES ('Reboque', '0100') 
-INSERT INTO tbServicos(Servicos,Codigo) VALUES ('Banheiros', '0110') 
-INSERT INTO tbServicos(Servicos,Codigo) VALUES ('Auto Eletrico', '0120')
 
-GO
 CREATE TABLE [dbo].[tbLogin](
 	[IdUsuario] [int] IDENTITY(1,1) NOT NULL,
 	[Email] [varchar](100) NULL,

@@ -72,69 +72,69 @@
 	</div>
 		</c:forEach>
 
-		<!--         <hr> -->
-		<!--         <div class="Posto2"> -->
-		<!--           <div class="imagem1"><img class="imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIhtRmaQ6q4SFZ_Aw8sZf7W7k7GZp9OQbJ90yXi9aQKe1HdVv9ZROKMazNCj4BhOkBC7Y&usqp=CAU" height="75px" width="90px" ></div> -->
-		<!--           <ul class="avaliacao"> -->
-		<!--             <li class="star-icon ativo" data-avaliacao="1"></li> -->
-		<!--             <li class="star-icon" data-avaliacao="2"></li> -->
-		<!--             <li class="star-icon" data-avaliacao="3"></li> -->
-		<!--             <li class="star-icon" data-avaliacao="4"></li> -->
-		<!--             <li class="star-icon" data-avaliacao="5"></li> -->
-		<!--           </ul>   -->
-		<!--           <div class="texto" > -->
-		<!--               <b class="ze">Posto do seu zé</b> -->
-		<!--               <h2 class="ze1">Rua jardim belval</h2> -->
-		<!--             </div> -->
-		<!--         </div> -->
-		<!--         <hr> -->
-		<!--         <div class="Posto3"> -->
-		<!--             <div class="imagem1"><img class="imagem" src="https://1.bp.blogspot.com/-9Wfse3pzmGs/W8VWT6uIQ0I/AAAAAAABsjY/mMncLwwI4sQs2jLKvVqcIiMNN3hFVPlawCLcBGAs/s1600/ale%2B1.jpg" height="75px" width="90px" ></div> -->
-		<!--             <ul class="avaliacao"> -->
-		<!--                 <li class="star-icon ativo" data-avaliacao="1"></li> -->
-		<!--                 <li class="star-icon" data-avaliacao="2"></li> -->
-		<!--                 <li class="star-icon" data-avaliacao="3"></li> -->
-		<!--                 <li class="star-icon" data-avaliacao="4"></li> -->
-		<!--                 <li class="star-icon" data-avaliacao="5"></li> -->
-		<!--             </ul>   -->
-		<!--             <div class="texto" > -->
-		<!--                 <b class="ze">Posto do seu zé</b> -->
-		<!--                 <h2 class="ze1">Rua jardim belval</h2> -->
-		<!--             </div> -->
-		<!--         </div> -->
-		<!--         <hr> -->
-		<!--         <div class="Posto4"> -->
-		<!--             <div class="imagem1"><img class="imagem" src="https://sbvc.com.br/wp-content/uploads/2022/04/R.jpg" height="75px" width="90px" ></div> -->
-		<!--             <ul class="avaliacao"> -->
-		<!--                 <li class="star-icon ativo" data-avaliacao="1"></li> -->
-		<!--                 <li class="star-icon" data-avaliacao="2"></li> -->
-		<!--                 <li class="star-icon" data-avaliacao="3"></li> -->
-		<!--                 <li class="star-icon" data-avaliacao="4"></li> -->
-		<!--                 <li class="star-icon" data-avaliacao="5"></li> -->
-		<!--             </ul>   -->
-		<!--             <div class="texto" > -->
-		<!--                 <b class="ze">Posto do seu zé</b> -->
-		<!--                 <h2 class="ze1">Rua jardim belval</h2> -->
-		<!--             </div> -->
-		<!--         </div> -->
-		<!--         <hr> -->
-		<!--         <div class="Posto5"> -->
-		<!--             <div class="imagem1"><img class="imagem" src="https://site.zuldigital.com.br/blog/wp-content/uploads/2020/09/shutterstock_339529217_Easy-Resize.com_.jpg" height="75px" width="90px" ></div> -->
-		<!--             <ul class="avaliacao"> -->
-		<!--                 <li class="star-icon ativo" data-avaliacao="1"></li> -->
-		<!--                 <li class="star-icon ativo" data-avaliacao="2"></li> -->
-		<!--                 <li class="star-icon ativo" data-avaliacao="3"></li> -->
-		<!--                 <li class="star-icon ativo" data-avaliacao="4"></li> -->
-		<!--                 <li class="star-icon" data-avaliacao="5"></li> -->
-		<!--             </ul> -->
-		<!--         <div class="texto" > -->
-		<!--           <b class="ze">Posto do seu zé</b> -->
-		<!--           <h2 class="ze1">Rua jardim belval</h2> -->
-		<!--         </div> -->
-		<!--         </div> -->
-		<!--       </div> -->
 
-		<!-- Butao de cadastro-->
+         <div class="Posto2"> 
+          <div class="imagem1"><img class="imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIhtRmaQ6q4SFZ_Aw8sZf7W7k7GZp9OQbJ90yXi9aQKe1HdVv9ZROKMazNCj4BhOkBC7Y&usqp=CAU" height="75px" width="90px" ></div>
+           <ul class="avaliacao"> 
+            <li class="star-icon ativo" data-avaliacao="1"></li> 
+             <li class="star-icon" data-avaliacao="2"></li> 
+            <li class="star-icon" data-avaliacao="3"></li> 
+             <li class="star-icon" data-avaliacao="4"></li> 
+             <li class="star-icon" data-avaliacao="5"></li> 
+           </ul>   
+           <div class="texto" > 
+              <b class="ze">Posto do seu zé</b> 
+               <h2 class="ze1">Rua jardim belval</h2> 
+             </div> 
+         </div> 
+         <hr> 
+         <div class="Posto3"> 
+             <div class="imagem1"><img class="imagem" src="https://1.bp.blogspot.com/-9Wfse3pzmGs/W8VWT6uIQ0I/AAAAAAABsjY/mMncLwwI4sQs2jLKvVqcIiMNN3hFVPlawCLcBGAs/s1600/ale%2B1.jpg" height="75px" width="90px" ></div>
+             <ul class="avaliacao"> 
+                 <li class="star-icon ativo" data-avaliacao="1"></li> 
+                 <li class="star-icon" data-avaliacao="2"></li> 
+                 <li class="star-icon" data-avaliacao="3"></li> 
+                 <li class="star-icon" data-avaliacao="4"></li> 
+                 <li class="star-icon" data-avaliacao="5"></li> 
+             </ul>   
+             <div class="texto" > 
+                 <b class="ze">Posto do seu zé</b> 
+                 <h2 class="ze1">Rua jardim belval</h2> 
+             </div> 
+         </div> 
+         <hr> 
+         <div class="Posto4"> 
+             <div class="imagem1"><img class="imagem" src="https://sbvc.com.br/wp-content/uploads/2022/04/R.jpg" height="75px" width="90px" ></div> 
+             <ul class="avaliacao"> 
+                 <li class="star-icon ativo" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li> 
+                 <li class="star-icon" data-avaliacao="3"></li> 
+                 <li class="star-icon" data-avaliacao="4"></li> 
+                 <li class="star-icon" data-avaliacao="5"></li> 
+             </ul>   
+             <div class="texto" > 
+                 <b class="ze">Posto do seu zé</b> 
+                 <h2 class="ze1">Rua jardim belval</h2> 
+             </div> 
+         </div> 
+         <hr> 
+         <div class="Posto5"> 
+             <div class="imagem1"><img class="imagem" src="https://site.zuldigital.com.br/blog/wp-content/uploads/2020/09/shutterstock_339529217_Easy-Resize.com_.jpg" height="75px" width="90px" ></div> 
+             <ul class="avaliacao"> 
+                 <li class="star-icon ativo" data-avaliacao="1"></li> 
+                 <li class="star-icon ativo" data-avaliacao="2"></li> 
+                 <li class="star-icon ativo" data-avaliacao="3"></li> 
+                 <li class="star-icon ativo" data-avaliacao="4"></li> 
+                <li class="star-icon" data-avaliacao="5"></li> 
+             </ul> 
+         <div class="texto" > 
+           <b class="ze">Posto do seu zé</b> 
+           <h2 class="ze1">Rua jardim belval</h2> 
+         </div> 
+         </div> 
+       </div> 
+
+		<!-- Butao de cadastro -->
 		<div>
 			<a class="butaoo" href="/infoposto/web?action=FrmCadastroDePosto">
 				<button class="butao">Cadastre seu posto</button>

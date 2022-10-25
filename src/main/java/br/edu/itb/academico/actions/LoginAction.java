@@ -53,7 +53,7 @@ public class LoginAction extends HttpServlet {
 			     
 			    }
 				
-			    request.getRequestDispatcher("/WEB-INF/jsp/ListaDePostos/ListaDePostos.jsp").forward(request, response);
+
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
