@@ -17,21 +17,21 @@
 <style>
 #div-msg {
 	text-align: center;
-	padding: 40px 0;
-	background: #EBF0F5;
+    padding: 70px 0;
+    background: #c80000;
 }
 #sucesso {
-	color: #88B04B;
+	color: red;
 	font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
 	font-weight: 900;
 	font-size: 40px;
 	margin-bottom: 10px;
 }
 p {
-	color: #404F5E;
-	font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
-	font-size: 20px;
-	margin: 0;
+	font-family: Poppins-Regular;
+    font-size: 20px;
+    line-height: inherit;
+    color: #c80000;
 }
 i {
 	color: #9ABC66;
@@ -57,11 +57,11 @@ i {
 	<div class="card">
 		<div
 			style="border-radius: 200px; height: 200px; width: 200px; background: #F8FAF5; margin: 0 auto;">
-			<img src="https://cdn.icon-icons.com/icons2/2596/PNG/512/success_icon_154786.png" height="200px"></img>
+			<img src="https://th.bing.com/th/id/OIP.hkRXjcphUEBgob5Fq26r7gHaHa?pid=ImgDet&rs=1" height="200px" width="200px"></img>
 		</div>
-		<h1 id="sucesso">Sucesso</h1>
+		<h1 id="sucesso">Erro</h1>
 		<p>
-			Cadastrado com sucesso!!!
+			Usuário ou senha errado!!!
 		</p>
 	</div>
 	</div>

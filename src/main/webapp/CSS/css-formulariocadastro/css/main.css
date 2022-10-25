@@ -1,53 +1,69 @@
+body {
+    margin: 0;
+    background: #ffffff;
+    font-size: 0.92em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
 /* Layout */
 
 #area-cabecalho {
-  background: #1d1c1c;
-  padding: 15px;
-  text-align: center;
-  margin-left: -15px;
-  margin-right: -15px;
+    background: #1d1c1c;
+    padding: 10px;
+    text-align: center;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 #area-menu, #area-logo {
-  padding: 10px;
-}
-
-.texto-lateral {
-  font-size: 0.8em;
-  padding: 5px;
+    padding: 5px;
 }
 
 /* Formatação do Menu */
 
 #area-cabecalho a:link, #area-cabecalho a:visited {
-  color: #FFF;
-  padding: 8px 12px;
-  text-align: center;
+    color: #FFF;
+    padding: 5px 12px;
 }
 
 #area-cabecalho a:hover {
-  background: #FFF;
-  color:#000000;
-  text-decoration: none;
+    background: #00D3AD;
+    color:#000000;
+    text-decoration: none;
+    border-radius: 20px;
 }
 
-/* Formatações Gerais */
 
 h1 {
-  color: #00D3AD;
-  font-size: 2.6em;
+    color: #00D3AD;
+    font-size: 2.6em;
 }
 
-h5 {
-  font-size: 2em;
-  font-family: 'Abril Fatface', cursive;
-}
 
 .branco {
-  color: white;
-  font-size: 1.0em;
+    color: white;
+    font-size: 1.0em;
 }
 
+.titulo {
+	text-align: center;
+	font-size: 23px;
+    padding: auto;
+    height: -300px;
+}
+
+.imagem {
+	border: 1px solid;
+	border-radius: 15px;
+	
+}
+
+.div1 {
+    width: 1200px;
+    margin: 50px auto;
+	padding: 50px;
+	border-radius: 1px;
+}
 /* conteudo */
 
 @font-face {

@@ -60,8 +60,8 @@ h1 {
 
 .div1 {
     width: 1200px;
-    margin: 50px auto;
-	padding: 50px;
+    margin: 0px auto;
+	padding: 1vw;
 	border-radius: 1px;
 }
 
@@ -256,4 +256,118 @@ hr{
     width: 10em;
     height: 3em;
     text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+footer{
+    background-color: #000000;
+    padding: 25px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 30%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 19px;
+    color: #00D3AD;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #00D3AD;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.2s ease;
+}
+.footer-col ul li a:hover{
+    color: #00D3AD;
+    padding-left: 10px;
+}
+.footer-col .medias-socias{
+    margin-top: 30px;
+}
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #00D3AD;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover{
+    color: #00D3AD;
+    background-color: white;
+}
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 7px;
+    font-size: 13px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #000000;
+}
+.footer-col .form-sub input::placeholder{
+    color: white;
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px; 
+    font-size: 13px;
+    outline: none;
+    border: 15px;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #00D3AD;       
+}
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
+
+.p{
+    font-size: 25px;
 }
