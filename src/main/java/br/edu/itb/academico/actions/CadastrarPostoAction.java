@@ -8,13 +8,14 @@ import java.sql.SQLException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import br.edu.itb.academico.database.ConnectionFactory;
 
 @WebServlet("/CadastrarPostoAction")
-public class CadastrarPostoAction {
+public class CadastrarPostoAction extends HttpServlet   {
 	
 	//https://www.4devs.com.br/gerador_de_cnpj
 	
@@ -35,19 +36,19 @@ public class CadastrarPostoAction {
 				valorcombustivel = request.getParameter("valorcombustivel");
 				senhausuario = request.getParameter("senhausuario");
 
-				PreparedStatement ps = con.prepareStatement("INSERT INTO tbPosto (nomedono, nomeposto, endereco , bairro , email, numero, cnpj, valordocombustivel, senhausuario)VALUES(?,?,?,?,?,?,?,?,?)");
+				PreparedStatement ps = con.prepareStatement("INSERT INTO tbPosto(NomeDono, NomePosto, Endereco , Bairro , "
+						+ "Email, Numero, ValorCombustivel, SenhaUsuario)VALUES(?,?,?,?,?,?,?,?)");
 				ps.setString(1, nomedono);
 				ps.setString(2, nomeposto);
 				ps.setString(3, endereco);
 				ps.setString(4, bairro);
 				ps.setString(5, email);
 				ps.setString(6, numero);
-				ps.setString(7, cnpj);
-				ps.setString(8, valorcombustivel);
-				ps.setString(9, senhausuario);
+				ps.setDouble(7, Double.parseDouble(valorcombustivel));
+				ps.setString(8, senhausuario);
 				ps.execute();
 				
-				 request.getRequestDispatcher("/WEB-INF/jsp/CadastroSucesso.jsp").forward(request, response);
+				 request.getRequestDispatcher("/WEB-INF/jsp/ListaDePostos/ListaDePostos.jsp").forward(request, response);
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -75,4 +76,6 @@ public class CadastrarPostoAction {
 				e.printStackTrace();
 			}
 }
+
+	
 }

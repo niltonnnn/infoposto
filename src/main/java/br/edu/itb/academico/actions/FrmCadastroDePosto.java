@@ -24,5 +24,5 @@ public class FrmCadastroDePosto implements Action {
 		return "/WEB-INF/jsp/CadastroDePosto/CadastroPosto.jsp";
 	}
 
-}
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 

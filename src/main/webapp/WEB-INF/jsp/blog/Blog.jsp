@@ -19,57 +19,76 @@
         <div class="area-postagens">
             <div class="postagem">
                 <h2>Gasolina</h2>
-                <span class="data-postagem">postado em 22 de  de 2022</span>
+                <span class="data-postagem">postado em 22 de outubro de 2022</span>
                 <img width="620px" src="https://s2.glbimg.com/dy4yJcDtgKOkIHGKJwgMZL831xY=/0x0:1284x721/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/v/S/BIC9gdTKGg0XCt0gqYIQ/combustivel4.jpg" alt="">
                 <p>
-                    Pre�o do etanol tem alta de quase 5% nos postos; litro do diesel tamb�m avan�a, segundo ANP     
+                    Pre�o do etanol tem alta de quase 5% nos postos; litro do diesel tamb�m avan�a, segundo ANP     
                 </p>
                 <a href="https://g1.globo.com/economia/noticia/2022/04/26/preco-do-etanol-tem-forte-alta-nos-postos-litro-do-diesel-tambem-avanca-segundo-anp.ghtml">Leia mais</a>
             </div> 
+            
         </div>
-        <!-- fechamento de postagem -->
-
         <div id="area-lateral">
-            <div class="conteudo-lateral">
-                <h3>Postagens recentes</h3>
-                <div class="texto-lateral">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="">Leia mais</a>
-                </div>
-                <hr>
-                <div class="texto-lateral">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="">Leia mais</a>
+                <div class="conteudo-lateral">
+                    <h3>Postagens recentes</h3>
+                    <div class="texto-lateral">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="">Leia mais</a>
+                    </div>
+                    <hr>
+                    <div class="texto-lateral">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="">Leia mais</a>
+                    </div>
                 </div>
             </div>
-
-            <div class="conteudo-lateral">
-                <h3>Categorias</h3>
-                <div class="categorias">
-                    
-                    <a href="">Jogos</a><br>
-                    <a href="">Celulares</a><br>
-                    <a href="">Inform�tica</a><br>
-                    <a href="">Eletr�nicos</a><br>
-
-                </div>                
-            </div>
-        </div>
-
-        <!-- abertura de postagem -->
+        
         <div class="area-postagens">
             <div class="postagem">
-                <h2>T�tulo da Postagem 2</h2>
-                <span class="data-postagem">postado em 01 de mar�o de 2022</span>
-                <img width="620px" src="IMG/imagens/imagem5.jpg" alt="">
+                <h2>Preço médio da gasolina sobe após 15 quedas consecutivas, segundo ANP</h2>
+                <span class="data-postagem">postado em 17 de outubro de 2022</span>
+                <img width="620px" src="https://s2.glbimg.com/2C3v_mWkDdMc0R7URP50XSUmTcg=/0x0:1170x700/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/M/y/2VhohpQGyqlFppY56nBg/posto-de-combustivel-mcajr-abr-1609210451.jpg" alt="">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+                    Valor médio do litro do combustível vendido nos postos do país subiu para R$ 4,86 na semana de 9 a 15 de outubro.
                 </p>
-                <a href="">Leia mais</a>
+                <a href="https://g1.globo.com/economia/noticia/2022/10/17/preco-medio-da-gasolina-sobe-apos-15-quedas-consecutivas-segundo-anp.ghtml">Leia mais</a>
             </div> 
         </div>
-        <!-- fechamento de postagem -->
+        <div class="area-postagens">
+            <div class="postagem">
+                <h2>Cerca de 10 postos de gasolina são flagrados com preços abusivos em Porto Velho</h2>
+                <span class="data-postagem">postado em 17 de outubro de 2022</span>
+                <img width="620px" src="https://s2.glbimg.com/zFfJ1hhkMSb5Vwc0SWdJBvn0nB0=/0x0:1050x558/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/f/k/uMBtA5RxWkIrKVwf9ukw/posto.png" alt="">
+                <p>
+                    Operação da Sefin e Procon iniciou no domingo (16). Em alguns postos de gasolina, os preços abusivos tinham um aumento de 10%.
+                </p>
+                <a href="https://g1.globo.com/ro/rondonia/noticia/2022/10/17/cerca-de-10-postos-de-gasolina-sao-flagrados-com-precos-abusivos-em-porto-velho.ghtml">Leia mais</a>
+            </div> 
+        </div>
+        <div class="area-postagens">
+            <div class="postagem">
+                <h2>Gasolina tem reajuste de preço no estado do Rio de Janeiro</h2>
+                <span class="data-postagem">postado em 17 de outubro de 2022</span>
+                <img width="620px" src="https://pubimg.band.uol.com.br/files/bf9414075130ed67095c.webp" alt="">
+                <p>
+                    O aumento dos combustíveis percebido por moradores do Rio.
+                </p>
+                <a href="https://www.band.uol.com.br/bandnews-fm/rio-de-janeiro/noticias/gasolina-tem-reajuste-de-preco-no-estado-do-rio-de-janeiro-16548299">Leia mais</a>
+            </div> 
+        </div>
+        <div class="area-postagens">
+            <div class="postagem">
+                <h2>P-71 produzirá até 150 mil barris/dia de petróleo na Bacia de Santos</h2>
+                <span class="data-postagem">postado em 17 de outubro de 2022</span>
+                <img width="620px" src="https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2022/10/17/910269/20221017140147170122u.jpg" alt="">
+                <p>
+                    A entrada em operação da P-71 está prevista para dezembro deste ano, devendo atingir o pico de produção até o fim de 2023. 
+                </p>
+                <a href="https://www.diariodepernambuco.com.br/noticia/economia/2022/10/p-71-produzira-ate-150-mil-barris-dia-de-petroleo-na-bacia-de-santos.html">Leia mais</a>
+            </div> 
+        </div>
 
+            
     </div>
 
     <div id="rodape">
