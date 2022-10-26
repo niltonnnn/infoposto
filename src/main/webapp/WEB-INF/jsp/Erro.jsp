@@ -17,7 +17,7 @@
 <style>
 #div-msg {
 	text-align: center;
-    padding: 70px 0;
+    padding: 90px 0;
     background: #c80000;
 }
 #sucesso {
