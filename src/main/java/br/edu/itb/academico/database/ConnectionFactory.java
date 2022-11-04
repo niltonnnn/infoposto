@@ -18,8 +18,5 @@ public abstract class ConnectionFactory {
         System.out.println("Conectado: " + conn);
         return conn;
     }
-            
-
-
-
+    
 }

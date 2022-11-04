@@ -31,12 +31,6 @@
             <main>
                 <ul class="produtos">
                     <li style="height:30vw">
-                        <h2><b>Desconto</b></h2>
-                        <img src="IMG/img-home/desconto.png">
-                        <p class="produto-descricao"><b>Ganhe Desconto</b></p>
-                        <p class="produto-descricao1">Ao baixar e instalar o nosso app, avaliando o atendimento do posto tem direito a 5% de desconto</p>
-                    </li>
-                    <li style="height:30vw">
                         <h2>Noticias</h2>
                         <img src="https://cdn-icons-png.flaticon.com/512/2495/2495007.png" height="220px">
                         <p class="produto-descricao"><b>Noticias Diarias</b></p>

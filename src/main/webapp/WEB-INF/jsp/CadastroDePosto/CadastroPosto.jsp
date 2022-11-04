@@ -115,9 +115,11 @@
                         </div>
                         
                     </div>
+
                     <div class="continue-button">
-                <button type="submit" >Cadastrar</button>	
-                </div>
+               			 <button type="submit" >Cadastrar</button>	
+                	</div>
+
                         
                 </form>
                 
