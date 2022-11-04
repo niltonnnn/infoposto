@@ -48,60 +48,77 @@
         </div>
 
         <hr>
-        <div class="Posto2">
-          <div class="imagem1"><img class="imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIhtRmaQ6q4SFZ_Aw8sZf7W7k7GZp9OQbJ90yXi9aQKe1HdVv9ZROKMazNCj4BhOkBC7Y&usqp=CAU" height="75px" width="90px" ></div>
-          <ul class="avaliacao">
-            <li class="star-icon ativo" data-avaliacao="1"></li>
-            <li class="star-icon" data-avaliacao="2"></li>
-            <li class="star-icon" data-avaliacao="3"></li>
-            <li class="star-icon" data-avaliacao="4"></li>
-            <li class="star-icon" data-avaliacao="5"></li>
-          </ul>  
-          <div class="texto" >
-              <b class="ze">Posto do seu zé</b>
-              <h2 class="ze1">Rua jardim belval</h2>
-            </div>
-        </div>
-        <hr>
-        <div class="Posto3">
-            <div class="imagem1"><img class="imagem" src="https://1.bp.blogspot.com/-9Wfse3pzmGs/W8VWT6uIQ0I/AAAAAAABsjY/mMncLwwI4sQs2jLKvVqcIiMNN3hFVPlawCLcBGAs/s1600/ale%2B1.jpg" height="75px" width="90px" ></div>
-            <ul class="avaliacao">
-                <li class="star-icon ativo" data-avaliacao="1"></li>
-                <li class="star-icon" data-avaliacao="2"></li>
-                <li class="star-icon" data-avaliacao="3"></li>
-                <li class="star-icon" data-avaliacao="4"></li>
-                <li class="star-icon" data-avaliacao="5"></li>
-            </ul>  
-            <div class="texto" >
-                <b class="ze">Posto do seu zé</b>
-                <h2 class="ze1">Rua jardim belval</h2>
-            </div>
-        </div>
-        <hr>
-        <div class="Posto4">
-            <div class="imagem1"><img class="imagem" src="https://sbvc.com.br/wp-content/uploads/2022/04/R.jpg" height="75px" width="90px" ></div>
-            <ul class="avaliacao">
-                <li class="star-icon ativo" data-avaliacao="1"></li>
-                <li class="star-icon" data-avaliacao="2"></li>
-                <li class="star-icon" data-avaliacao="3"></li>
-                <li class="star-icon" data-avaliacao="4"></li>
-                <li class="star-icon" data-avaliacao="5"></li>
-            </ul>  
-            <div class="texto" >
-                <b class="ze">Posto do seu zé</b>
-                <h2 class="ze1">Rua jardim belval</h2>
-            </div>
-        </div>
-      </div>
 
-      <!-- Butao de cadastro-->
-      <div>
-        <a class="butaoo" href="https://www.shell.com.br/shellenergy.html?gclid=CjwKCAjw4c-ZBhAEEiwAZ105RaQZQtPN6dIr8yhWRYplKOX0fhJECagJbap57r9cma0edLNKYlHgDxoCyq4QAvD_BwE">
-            <button class="butao">Cadastre seu posto</button>
-        </a>
-      </div>
-    </div>
-<!-- POPUP -->
+
+         <div class="Posto2"> 
+          <div class="imagem1"><img class="imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIhtRmaQ6q4SFZ_Aw8sZf7W7k7GZp9OQbJ90yXi9aQKe1HdVv9ZROKMazNCj4BhOkBC7Y&usqp=CAU" height="75px" width="90px" ></div>
+           <ul class="avaliacao"> 
+            <li class="star-icon ativo" data-avaliacao="1"></li> 
+             <li class="star-icon" data-avaliacao="2"></li> 
+            <li class="star-icon" data-avaliacao="3"></li> 
+             <li class="star-icon" data-avaliacao="4"></li> 
+             <li class="star-icon" data-avaliacao="5"></li> 
+           </ul>   
+           <div class="texto" > 
+              <b class="ze">Posto do seu zé</b> 
+               <h2 class="ze1">Rua jardim belval</h2> 
+             </div> 
+         </div> 
+         <hr> 
+         <div class="Posto3"> 
+             <div class="imagem1"><img class="imagem" src="https://1.bp.blogspot.com/-9Wfse3pzmGs/W8VWT6uIQ0I/AAAAAAABsjY/mMncLwwI4sQs2jLKvVqcIiMNN3hFVPlawCLcBGAs/s1600/ale%2B1.jpg" height="75px" width="90px" ></div>
+             <ul class="avaliacao"> 
+                 <li class="star-icon ativo" data-avaliacao="1"></li> 
+                 <li class="star-icon" data-avaliacao="2"></li> 
+                 <li class="star-icon" data-avaliacao="3"></li> 
+                 <li class="star-icon" data-avaliacao="4"></li> 
+                 <li class="star-icon" data-avaliacao="5"></li> 
+             </ul>   
+             <div class="texto" > 
+                 <b class="ze">Posto do seu zé</b> 
+                 <h2 class="ze1">Rua jardim belval</h2> 
+             </div> 
+         </div> 
+         <hr> 
+         <div class="Posto4"> 
+             <div class="imagem1"><img class="imagem" src="https://sbvc.com.br/wp-content/uploads/2022/04/R.jpg" height="75px" width="90px" ></div> 
+             <ul class="avaliacao"> 
+                 <li class="star-icon ativo" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li> 
+                 <li class="star-icon" data-avaliacao="3"></li> 
+                 <li class="star-icon" data-avaliacao="4"></li> 
+                 <li class="star-icon" data-avaliacao="5"></li> 
+             </ul>   
+             <div class="texto" > 
+                 <b class="ze">Posto do seu zé</b> 
+                 <h2 class="ze1">Rua jardim belval</h2> 
+             </div> 
+         </div> 
+         <hr> 
+         <div class="Posto5"> 
+             <div class="imagem1"><img class="imagem" src="https://site.zuldigital.com.br/blog/wp-content/uploads/2020/09/shutterstock_339529217_Easy-Resize.com_.jpg" height="75px" width="90px" ></div> 
+             <ul class="avaliacao"> 
+                 <li class="star-icon ativo" data-avaliacao="1"></li> 
+                 <li class="star-icon ativo" data-avaliacao="2"></li> 
+                 <li class="star-icon ativo" data-avaliacao="3"></li> 
+                 <li class="star-icon ativo" data-avaliacao="4"></li> 
+                <li class="star-icon" data-avaliacao="5"></li> 
+             </ul> 
+         <div class="texto" > 
+           <b class="ze">Posto do seu zé</b> 
+           <h2 class="ze1">Rua jardim belval</h2> 
+         </div> 
+         </div> 
+       </div> 
+
+		<!-- Butao de cadastro -->
+		<div>
+			<a class="butaoo" href="/infoposto/web?action=FrmCadastroDePosto">
+				<button class="butao">Cadastre seu posto</button>
+			</a>
+		</div>
+	</div>
+	<!-- POPUP -->
 
       <div id="modal-Posto1" class="modal-container"> 
         <div class="modal">
@@ -121,6 +138,7 @@
                 <b class="ze">Posto do seu zé</b>
                 <a href="https://www.shell.com.br/shellenergy.html?gclid=CjwKCAjw4c-ZBhAEEiwAZ105RaQZQtPN6dIr8yhWRYplKOX0fhJECagJbap57r9cma0edLNKYlHgDxoCyq4QAvD_BwE"><img class="Marca" src="https://logodownload.org/wp-content/uploads/2014/07/shell-logo-0.png" width="25px" height="25px"></a>
                 <h2 class="ze1">Rua jardim belval</h2>
+
 
             </div>
             <hr>
@@ -227,6 +245,39 @@
             </ul>  
         </div>
       </div>
+      
+      <div id="modal-Posto5" class="modal-container"> 
+        <div class="modal">
+            <button class="fechar">X</button>
+            <div class="imagem1"><img class="imagem" src="https://site.zuldigital.com.br/blog/wp-content/uploads/2020/09/shutterstock_339529217_Easy-Resize.com_.jpg" height="90px" width="130px"></div>
+            <ul class="avaliacao">
+                <li class="star-icon ativo" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li>
+                <li class="star-icon" data-avaliacao="3"></li>
+                <li class="star-icon" data-avaliacao="4"></li>
+                <li class="star-icon" data-avaliacao="5"></li>
+
+            </ul>  
+            <button class="valor">Gasolina R$ 5.50</button>
+            <button class="valor1">Etanol  R$ 5.00</button>
+            <div class="texto" >
+                <b class="ze">Posto do seu zé</b>
+                <a href="https://www.shell.com.br/shellenergy.html?gclid=CjwKCAjw4c-ZBhAEEiwAZ105RaQZQtPN6dIr8yhWRYplKOX0fhJECagJbap57r9cma0edLNKYlHgDxoCyq4QAvD_BwE"><img class="Marca" src="https://logodownload.org/wp-content/uploads/2014/07/shell-logo-0.png" width="25px" height="25px"></a>
+                <h2 class="ze1">Rua jardim belval</h2>
+
+
+            </div>
+            <hr>
+            <ul class="">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58528.344946130026!2d-46.94597482681276!3d-23.531726982886298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf010a298f663b%3A0x73313192e984e8cc!2sPosto%20Petrobras!5e0!3m2!1spt-BR!2sbr!4v1664378900224!5m2!1spt-BR!2sbr" width="50%" height="180" frameborder="0" style="border: 2px;" allowfullscreen=""></iframe>
+                <li><p><i class="material-icons">shopping_cart_checkout</i> Mercado </p></li>
+                <li><p><i class="material-icons">sanitizer</i> Lava Rápido</p></li>
+                <li><p><i class="material-icons">car_repair</i> Mecânica </p></li>
+                <li><p><i class="material-icons">electric_car</i> Carregador para carro elêtrico </p></li>
+
+            </ul>  
+        </div>
+      </div>
 
 
 
@@ -261,48 +312,12 @@
         Posto3.addEventListener('click', () => iniciaModal('modal-Posto3'));
         const Posto4 = document.querySelector('.Posto4');
         Posto4.addEventListener('click', () => iniciaModal('modal-Posto4'));
-        
+        const Posto5 = document.querySelector('.Posto5');
+        Posto5.addEventListener('click', () => iniciaModal('modal-Posto5'));
       </script>
 
-<footer>
-    <div class="container-footer">
-        <div class="row-footer">
-            <!-- footer col-->
-            <div class="footer-col">
-                <h4>Empresa</h4>
-                <ul>
-                    <li><a href=""> Quem somos </a></li>
-                    <li><a href=""> Nossos serviços </a></li>
-                    <li><a href=""> Politica de privacidade </a></li>
-                    <li><a href=""> Nossos Parceiros</a></li>
-                </ul>
-            </div>
-            <!--end footer col-->
-            <!-- footer col-->
-            <div class="footer-col">
-                <h4>Obter ajuda</h4>
-                <ul>
-                    <li><a href="#">Fale Conosco</a></li>
-                    <li><a href="https://precos.petrobras.com.br/">Entenda a politica de preços da Petrobras</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Envie uma sugestão!</h4>
-                <div class="form-sub">
-                    <form>
-                        <input type="text" placeholder="Digite aqui sua sugestão" required>
-                        <button>Enviar</button>
-                    </form>
-                </div>
 
-                <div class="medias-socias">
-                    <a href="https://www.linkedin.com/login/pt"><img src="IMG/img-home/linkedin.png.png" alt=""> </a>
-                    <a href="https://www.facebook.com/"><img src="IMG/img-home/face.png.png"></a>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</footer>
+	<%@ include file="../footer.jsp"%>
   </body>
+
 </html>
