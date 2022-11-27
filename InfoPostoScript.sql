@@ -69,3 +69,13 @@ SenhaUsuario VARCHAR(20) )
 
 
 SELECt*FROM tbPosto
+
+
+CREATE TABLE tbServico(
+CodigoServico INT IDENTITY PRIMARY KEY, 
+NomeServico VARCHAR(50),
+
+)
+
+CREATE TABLE tbPostoServico(CodgioPostoServico INT IDENTITY PRIMARY KEY, CodigoServico INT,CodigoPosto INT)
+
