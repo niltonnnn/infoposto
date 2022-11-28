@@ -7,15 +7,7 @@
         <div class="container-footer">
             <div class="row-footer">
                 <!-- footer col-->
-                <div class="footer-col">
-                    <h4>Empresa</h4>
-                    <ul>
-                        <li><a href=""> Quem somos </a></li>
-                        <li><a href=""> Nossos serviços </a></li>
-                        <li><a href=""> Politica de privacidade </a></li>
-                        <li><a href=""> Nossos Parceiros</a></li>
-                    </ul>
-                </div>
+            
                 <!--end footer col-->
                 <!-- footer col-->
                 <div class="footer-col">
