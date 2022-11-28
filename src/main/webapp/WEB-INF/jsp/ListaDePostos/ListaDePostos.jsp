@@ -12,94 +12,68 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>InfoPosto</title>
   </head>
 
   <!--conteudo-->
   <body>
     <%@ include file="../menu-admin.jsp" %>
-    <div>
-        	<div>
-			<h1 style= "margin:auto; width:20%">Lista de postos</h1>
-			<br>
-			<br>
-			<br>
-			<br>
-		  <a href="/infoposto/web?action=FrmCadastroDePosto" style="padding-left:20vw ;font-weight:bold;">Cadastrar posto</a>
+		  
 		<%
 		List<Posto> p = ListaAction.getAll();
 		request.setAttribute("postos", p);
 		%>
 
-		<h1>${posto.getNomeDono()}</h1>
-
-
-		<c:forEach items="${postos}" var="posto">
-			<div class="div1">
-				<div class="Posto1">
-					<div class="imagem1">
-						<img class="imagem"
-							src="https://site.zuldigital.com.br/blog/wp-content/uploads/2020/09/shutterstock_339529217_Easy-Resize.com_.jpg"
-							height="75px" width="90px">
-					</div>
-<!-- 					<ul class="avaliacao"> -->
-<!-- 						<li class="star-icon ativo" data-avaliacao="1"></li> -->
-<!-- 						<li class="star-icon ativo" data-avaliacao="2"></li> -->
-<!-- 						<li class="star-icon ativo" data-avaliacao="3"></li> -->
-<!-- 						<li class="star-icon ativo" data-avaliacao="4"></li> -->
-<!-- 						<li class="star-icon" data-avaliacao="5"></li> -->
-<!-- 					</ul> -->
-					<div class="texto">
-						<b class="ze">${posto.getNomePosto()}</b>
-						<h2 class="ze1">${posto.getEndereco()}</h2>
-					</div>
-				</div>
-			</div>
-			<div id="modal-Posto1" class="modal-container">
-
+	<div class="container">
+	<div class="row">
+		<div class="cold-md-15">
+			<hr>
+			<h3>Postos Cadastrados</h3>
+			<hr>
+			<table class="table" style="text-align:center;">
+				<thead>
+					<tr style="background-color:#A9A9A9; font-size:14px;">
+						<th>Nome do Dono:</th>
+						<th>Nome do Posto:</th>
+						<th>Endereço:</th>
+						<th>Bairro:</th>
+						<th>Telefone:</th>
+						<th>Email:</th>
+						<th>Valor do Combustivel(R$):</th>
+						<th>Senha:</th>
+						<th>Bandeira:</th>
+						<th>Serviços:</th>
+					</tr>
+				</thead>
+				<tbody>
+				<c:forEach items="${postos}" var="posto">
+							<tr>
+								<td>${posto.getNomeDono()}</td>
+								<td>${posto.getNomePosto()}</td>
+								<td>${posto.getEndereco()}</td>
+								<td>${posto.getBairro()}</td>
+								<td>${posto.getNumero()}</td>
+								<td>${posto.getEmail()}</td>
+								<td>${posto.getValorCombustivel()}</td>
+								<td>${posto.getSenhaUsuario()}</td>
+								<td>${posto.getBandeira()}</td>
+								<td>${posto.getServicos()}</td>
+							</tr>
+						</c:forEach>
+				</tbody>
+			</table>
+			
+		</div>
 	</div>
-		</c:forEach>
+</div>
 
-   </div>
+<a href="/infoposto/web?action=FrmCadastroDePosto" style="font-weight:bold;background:#00FFFF;color:black;border-radius: 20px;position:absolute;widht:80px;height:25px;left:60%;margin-left:-200px; padding-bottom:30px;border-style:solid;border-width:1px;">
+	Cadastrar posto
+</a>
 
-
-
-
-      <script>
-         var stars = document.querySelectorAll('.star-icon');       
-         document.addEventListener('click', function(e){
-          var classStar = e.target.classList;
-          if(!classStar.contains('ativo')){
-          stars.forEach(function(star){
-          star.classList.remove('ativo');
-       });
-          classStar.add('ativo');
-          console.log(e.target.getAttribute('data-avaliacao'));
-          }
-		});
-        
-        function iniciaModal(modalId) {
-            const modal = document.getElementById(modalId);
-            modal.classList.add('mostrar');
-            modal.addEventListener('click', (e) => {
-                if(e.target.id == modalId || e.target.className ==  'fechar') {
-                    modal.classList.remove('mostrar');
-                }
-            })
-        }
-        const Posto1 = document.querySelector('.Posto1');
-        Posto1.addEventListener('click', () => iniciaModal('modal-Posto1'));
-        const Posto2 = document.querySelector('.Posto2');
-        Posto2.addEventListener('click', () => iniciaModal('modal-Posto2'));
-        const Posto3 = document.querySelector('.Posto3');
-        Posto3.addEventListener('click', () => iniciaModal('modal-Posto3'));
-        const Posto4 = document.querySelector('.Posto4');
-        Posto4.addEventListener('click', () => iniciaModal('modal-Posto4'));
-        const Posto5 = document.querySelector('.Posto5');
-        Posto5.addEventListener('click', () => iniciaModal('modal-Posto5'));
-      </script>
-
-
+<br>
+<br>
 	<%@ include file="../footer.jsp"%>
   </body>
 
