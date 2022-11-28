@@ -20,9 +20,12 @@
     <%@ include file="../menu-admin.jsp" %>
     <div>
         	<div>
-		<p class="titulo">
-			<b>Lista de Postos</b>
-		</p>
+			<h1 style= "margin:auto; width:20%">Lista de postos</h1>
+			<br>
+			<br>
+			<br>
+			<br>
+		  <a href="/infoposto/web?action=FrmCadastroDePosto" style="padding-left:20vw ;font-weight:bold;">Cadastrar posto</a>
 		<%
 		List<Posto> p = ListaAction.getAll();
 		request.setAttribute("postos", p);

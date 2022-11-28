@@ -21,7 +21,7 @@
 		List<FaleConosco> f = ListaAction.getAllMessages();
 		request.setAttribute("mensagens", f);
 		%>
-			<h1 style= "margin:auto; width:50%">Listagem de contatos</h1>
+		<h1 style= "margin:auto; width:30%">Lista de contatos</h1>
 		<div style= "margin:auto; width:50%">
 
 		<table>

@@ -38,8 +38,10 @@ public class ListaAction implements Action {
 				String email = rs.getString("Email");
 				String senha = rs.getString("SenhaUsuario");
 				Double valor = rs.getDouble("ValorUsuario");
+				String bandeira = rs.getString("Bandeira");
+				String servicos = rs.getString("Servicos");
 
-				Posto p = new Posto(nomedono, nomeposto, endereco, bairro, numero, email, valor, senha);
+				Posto p = new Posto(nomedono, nomeposto, endereco, bairro, numero, email, valor, senha,bandeira,servicos);
 				listaPostos.add(p);
 
 			}
@@ -72,7 +74,10 @@ public class ListaAction implements Action {
 			String senha = rs.getString("SenhaUsuario");
 			Double valor = rs.getDouble("ValorCombustivel");
 
-			Posto p = new Posto(nomedono, nomeposto, endereco, bairro, numero, email, valor, senha);
+			String bandeira = rs.getString("Bandeira");
+			String servicos = rs.getString("Servicos");
+
+			Posto p = new Posto(nomedono, nomeposto, endereco, bairro, numero, email, valor, senha,bandeira,servicos);
 			listaPostos.add(p);
 
 		}

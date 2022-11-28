@@ -64,7 +64,10 @@ Bairro VARCHAR(20),
 Numero varchar(10),
 Email VARCHAR(30),
 ValorCombustivel decimal,
-SenhaUsuario VARCHAR(20) )
+SenhaUsuario VARCHAR(20),
+Bandeira VARCHAR(30),
+Servicos VARCHAR(200)
+)
 -- tbPosto (nomedono, nomeposto, endereco , bairro , email, numero, cnpj, valordocombustivel, senhausuario)
 
 

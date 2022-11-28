@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>InfoPosto</title>
@@ -22,6 +22,7 @@
                 <img src="https://cdn-icons-png.flaticon.com/512/753/753399.png" alt="IMG">
             </div>
             <div class="form">
+            <form method = "post" action="${pageContext.request.contextPath}/CadastrarPostoAction">
                
                     <div class="form-header">
                         <div class="title">
@@ -75,7 +76,7 @@
                             <h6>Bandeira do posto</h6>
                         </div>
                         <div class="gender-group" id="bandeira" disabled>
-                            <select class="form-control selectpicker" name="select">
+                            <select class="form-control selectpicker" name="bandeira">
                                 <option value="Ipiranga">Ipiranga</option>
                                 ]<option value="Shell">Shell</option>
                                 <option value="Petrobras">Petrobras</option>
@@ -91,13 +92,13 @@
                               <div class="gender-title">
                                 <h6>Serviços</h6>
                             </div>
-                              <select class="form-control selectpicker" multiple data-live-search="true"> 
-                                <option value="American">Mercado</option> 
-                                <option value="Andean">Mecânica</option> 
-                                <option value="Chilean">Autopeças</option> 
-                                <option value="Greater">Carregador p/ carro eletrico</option> 
-                                <option value="James's">Estacionamento</option> 
-                                <option value="Lesser">Lava-rápido</option> 
+                              <select class="form-control selectpicker" multiple data-live-search="true" name= "servicos"> 
+                                <option value="Mercado">Mercado</option> 
+                                <option value="Mecanica">Mecânica</option> 
+                                <option value="Autopecas">Autopeças</option> 
+                                <option value="Carregador p/ carro eletrico">Carregador p/ carro eletrico</option> 
+                                <option value="Estacionamento">Estacionamento</option> 
+                                <option value="Lava-rapido">Lava-rápido</option> 
                             </select>
 
                         </div>

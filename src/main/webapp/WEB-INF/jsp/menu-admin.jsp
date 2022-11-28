@@ -13,7 +13,7 @@
             <h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
         </div>
         <div id="area-menu">
-            <a href="/infoposto/web?action=FrmCadastroDePosto">Cadastrar posto</a>
+        	<a href="/infoposto/web?action=FrmListaPostos">Postos </a>
             <a href="/infoposto/web?action=FrmListaFaleConosco">Mensagens</a>
             <a href="/infoposto/web?action=HomeAction">Sair</a>
 <!--             <a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a> -->

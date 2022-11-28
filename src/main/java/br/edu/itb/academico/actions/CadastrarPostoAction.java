@@ -25,7 +25,7 @@ public class CadastrarPostoAction extends HttpServlet   {
 		try {
 				
 				Connection con = ConnectionFactory.getConnectionSqlServer();
-				String nomedono,nomeposto,endereco,bairro,email,numero,cnpj,valorcombustivel,senhausuario,bandeira;
+				String nomedono,nomeposto,endereco,bairro,email,numero,cnpj,valorcombustivel,senhausuario,bandeira,servicos;
 				nomedono = request.getParameter("nomedono");
 				nomeposto = request.getParameter("nomeposto");
 				endereco = request.getParameter("endereco");
@@ -34,10 +34,11 @@ public class CadastrarPostoAction extends HttpServlet   {
 				numero = request.getParameter("numero");
 				cnpj = request.getParameter("cnpj");
 				valorcombustivel = request.getParameter("valorcombustivel");
-				senhausuario = request.getParameter("senhausuario");
-
+				senhausuario = request.getParameter("senhausuario");				
+				bandeira = request.getParameter("bandeira");
+				servicos = request.getParameter("servicos");
 				PreparedStatement ps = con.prepareStatement("INSERT INTO tbPosto(NomeDono, NomePosto, Endereco , Bairro , "
-						+ "Email, Numero, ValorCombustivel, SenhaUsuario)VALUES(?,?,?,?,?,?,?,?)");
+						+ "Email, Numero, ValorCombustivel, SenhaUsuario,Bandeira,Servicos)VALUES(?,?,?,?,?,?,?,?,?,?)");
 				ps.setString(1, nomedono);
 				ps.setString(2, nomeposto);
 				ps.setString(3, endereco);
@@ -46,6 +47,8 @@ public class CadastrarPostoAction extends HttpServlet   {
 				ps.setString(6, numero);
 				ps.setDouble(7, Double.parseDouble(valorcombustivel));
 				ps.setString(8, senhausuario);
+				ps.setString(9, bandeira);
+				ps.setString(10, servicos);
 				ps.execute();
 				
 				 request.getRequestDispatcher("/WEB-INF/jsp/ListaDePostos/ListaDePostos.jsp").forward(request, response);

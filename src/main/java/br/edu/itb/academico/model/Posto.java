@@ -59,9 +59,23 @@ public class Posto {
 	private String Email;
 	private Double ValorCombustivel;
 	private String SenhaUsuario;
+	private String Bandeira;
+	public String getBandeira() {
+		return Bandeira;
+	}
+	public void setBandeira(String bandeira) {
+		Bandeira = bandeira;
+	}
+	public String getServicos() {
+		return Servicos;
+	}
+	public void setServicos(String servicos) {
+		Servicos = servicos;
+	}
+	private String Servicos;
 
 	
-	public Posto(String nomeDono,String nomePosto,String endereco,String bairro, String numero,String email,Double valorCombustivel,String senhaUsuario) {
+	public Posto(String nomeDono,String nomePosto,String endereco,String bairro, String numero,String email,Double valorCombustivel,String senhaUsuario,String bandeira,String servicos) {
 	this.setNomeDono(nomeDono);
 	this.setNomePosto(nomePosto);
 	this.setEndereco(endereco);
@@ -70,6 +84,8 @@ public class Posto {
 	this.setEmail(email);
 	this.setValorCombustivel(valorCombustivel);
 	this.setSenhaUsuario(senhaUsuario);
+	this.setBandeira(bandeira);
+	this.setServicos(servicos);
 	}
 	
 	
