@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html;  charset=UTF-8;"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +21,7 @@
 				</div>
 				<form class="login100-form validate-form" method="post" action="${pageContext.request.contextPath}/LoginAction">
 					<span class="login100-form-title">
-						Faça seu login!
+						FaÃ§a seu login!
 					</span>
 					<div class="wrap-input100 validate-input" data-validate = "Digite um email valido: ex:fulano@hotmail.com">
 						<input class="input100" type="text" name="email" placeholder="Email">
@@ -52,7 +52,7 @@
 					</div>
 					<div class="text-center p-t-136">
 						<a class="txt2" href="/infoposto/web?action=FrmCadastroUsuario">
-							Não tem login? Faça seu cadastro!
+							NÃ£o tem login? FaÃ§a seu cadastro!
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
 					</div>

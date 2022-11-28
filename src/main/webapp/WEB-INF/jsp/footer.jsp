@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html;  charset=UTF-8;"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
  
@@ -11,7 +11,7 @@
                     <h4>Empresa</h4>
                     <ul>
                         <li><a href=""> Quem somos </a></li>
-                        <li><a href=""> Nossos servi�os </a></li>
+                        <li><a href=""> Nossos serviços </a></li>
                         <li><a href=""> Politica de privacidade </a></li>
                         <li><a href=""> Nossos Parceiros</a></li>
                     </ul>
@@ -22,14 +22,14 @@
                     <h4>Obter ajuda</h4>
                     <ul>
                         <li><a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a></li>
-                        <li><a href="https://precos.petrobras.com.br/">Entenda a politica de pre�os da Petrobras</a></li>
+                        <li><a href="https://precos.petrobras.com.br/">Entenda a politica de preços da Petrobras</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-<!--                     <h4>Envie uma sugest�o!</h4> -->
+<!--                     <h4>Envie uma sugestão!</h4> -->
 <!--                     <div class="form-sub"> -->
 <!--                         <form> -->
-<!--                             <input type="text" placeholder="Digite aqui sua sugestão" required> -->
+<!--                             <input type="text" placeholder="Digite aqui sua sugestÃ£o" required> -->
 <!--                             <button>Enviar</button> -->
 <!--                         </form> -->
 <!--                     </div> -->

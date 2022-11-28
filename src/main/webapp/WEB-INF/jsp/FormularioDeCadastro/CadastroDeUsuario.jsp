@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html;  charset=UTF-8;"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="ISO-8859-1">
+		<meta charset="UTF-8">
 		<title>InfoPosto - Cadastro</title>
 		
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,7 +38,7 @@
 					<div class="wrap-input100 validate-input" data-validate = "Digite seu nome">
 						<input class="input100" type="text" name="nome" placeholder="Nome">
 					</div>
-					<div class="wrap-input100 validate-input" data-validate = "Digite um email válido: ex:fulano@hotmail.com">
+					<div class="wrap-input100 validate-input" data-validate = "Digite um email vÃ¡lido: ex:fulano@hotmail.com">
 						<input class="input100" type="text" name="email" placeholder="Email">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
@@ -74,7 +74,7 @@
 <!-- 					</div> -->
 					<div class="text-center p-t-136">
 						<a class="txt2" href="/infoposto/web?action=FrmLoginAction">
-							Já possue cadastro? Faça login!
+							JÃ¡ possue cadastro? FaÃ§a login!
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
 					</div>

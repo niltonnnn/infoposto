@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html;  charset=UTF-8;"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -76,8 +76,8 @@ i {
 						<h4>Empresa</h4>
 						<ul>
 							<li><a href=""> Quem somos </a></li>
-							<li><a href=""> Nossos serviÁos </a></li>
-							<li><a href=""> polÌtica de privacidade </a></li>
+							<li><a href=""> Nossos servi√ßos </a></li>
+							<li><a href=""> pol√≠tica de privacidade </a></li>
 							<li><a href=""> Nossos Parceiros</a></li>
 						</ul>
 					</div>
@@ -87,14 +87,14 @@ i {
 						<h4>Obter ajuda</h4>
 						<ul>
 							<li><a href="#">Fale Conosco</a></li>
-							<li><a href="https://petrobras.com.br/pt/nossas-atividades/composicao-de-precos-de-venda-ao-consumidor/">Entenda a politica de preÁo da Petrobr·s</a></li>
+							<li><a href="https://petrobras.com.br/pt/nossas-atividades/composicao-de-precos-de-venda-ao-consumidor/">Entenda a politica de pre√ßo da Petrobr√°s</a></li>
 						</ul>
 					</div>
 					<div class="footer-col">
-						<h4>Envie uma sugest„o!</h4>
+						<h4>Envie uma sugest√£o!</h4>
 						<div class="form-sub">
 							<form>
-								<input type="email" placeholder="Digite aqui sua sugest„o" required>
+								<input type="email" placeholder="Digite aqui sua sugest√£o" required>
 								<button>Enviar</button>
 							</form>
 						</div>

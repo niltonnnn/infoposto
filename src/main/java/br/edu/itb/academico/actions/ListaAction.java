@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -16,6 +17,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import br.edu.itb.academico.database.ConnectionFactory;
+import br.edu.itb.academico.model.FaleConosco;
 import br.edu.itb.academico.model.Posto;
 
 public class ListaAction implements Action {
@@ -87,6 +89,41 @@ public class ListaAction implements Action {
 	
 		
 	} 
+	
+	public static List<FaleConosco> getAllMessages(){
+		try {
+		Connection con = ConnectionFactory.getConnectionSqlServer();
+		Statement stmt = con.createStatement();
+		ResultSet rs = stmt.executeQuery("SELECT * FROM	tbFaleConosco");
+		List<FaleConosco> listaMensagens = new ArrayList<FaleConosco>();
+		while (rs.next()) {
+	
+			int codigo = rs.getInt("Codigo");
+			String nome = rs.getString("Nome");
+			String email = rs.getString("Email");
+			String mensagem = rs.getString("Mensagem");
+			String resposta = rs.getString("Resposta");
+			Date dataResposta = rs.getDate("DataResposta");
+			
+
+		FaleConosco f = new FaleConosco(codigo,nome,email,mensagem,resposta,dataResposta);
+		listaMensagens.add(f);
+
+		}
+		rs.close();
+
+		stmt.close();
+		return listaMensagens;
+		}catch(Exception ex) {
+			
+			System.out.print(ex.getMessage());
+			return null;
+		}
+		
+	
+		
+	} 
+	
 	
 
 

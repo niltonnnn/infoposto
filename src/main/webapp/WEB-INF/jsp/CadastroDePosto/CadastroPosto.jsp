@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html;  charset=UTF-8;"
+    pageEncoding="UTF-8"%>
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
     <%@ taglib uri= "http://java.sun.com/jsp/jstl/fmt"  prefix="fmt" %>
 <!DOCTYPE html>
@@ -16,25 +16,13 @@
   </head>
 
     <body>
-        <div id="area-cabecalho">
-            <div id="area-logo">
-                <h1 href="/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
-            </div>
-            <div id="area-menu">
-                <a href="/infoposto/web?action=HomeAction">Home</a>
-                <a href="/infoposto/web?action=FrmBlogAction">Blog</a>
-                <a href="/infoposto/web?action=FrmLoginAction">Login</a>
-                <a href="/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
-                <a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
-            </div>
-        </div>
-
+         <%@ include file="../menu-admin.jsp" %>
         <div class="container">
             <div class="form-image">
                 <img src="https://cdn-icons-png.flaticon.com/512/753/753399.png" alt="IMG">
             </div>
             <div class="form">
-                <form method = "post" action="${pageContext.request.contextPath}/CadastrarPostoAction">
+               
                     <div class="form-header">
                         <div class="title">
                             <h1>Cadastre seu Posto!</h1>
@@ -51,8 +39,8 @@
                             <input id="nomedono" type="text" name="nomedono" placeholder="Digite seu nome e sobrenome" required>
                         </div>
                         <div class="input-box">
-                            <label for="EndereÁo">EndereÁo</label>
-                            <input id="EndereÁo" type="text" name="endereco" placeholder="Digite seu endereÁo" required>
+                            <label for="Endere√ßo">Endere√ßo</label>
+                            <input id="Endere√ßo" type="text" name="endereco" placeholder="Digite seu endere√ßo" required>
                         </div>
                         <div class="input-box">
                             <label for="bairro">Bairro</label>
@@ -71,7 +59,7 @@
                             <input id="cnpj" type="text" name="cnpj" placeholder="Digite seu CNPJ" maxlength="14" autocomplete="off" required>
                         </div>
                         <div class="input-box">
-                            <label for="combustivel">Valor do comb˙stivel</label>
+                            <label for="combustivel">Valor do comb√∫stivel</label>
                             <input id="combustivel" type="text" name="valorcombustivel" placeholder="R$ 5,50" maxlength="4" required>
                         </div>
                         <div class="input-box">
@@ -101,15 +89,15 @@
                                 <option value="Outro">Outro</option>
                               </select>
                               <div class="gender-title">
-                                <h6>ServiÁos</h6>
+                                <h6>Servi√ßos</h6>
                             </div>
                               <select class="form-control selectpicker" multiple data-live-search="true"> 
                                 <option value="American">Mercado</option> 
-                                <option value="Andean">Mec‚nica</option> 
-                                <option value="Chilean">AutopeÁas</option> 
+                                <option value="Andean">Mec√¢nica</option> 
+                                <option value="Chilean">Autope√ßas</option> 
                                 <option value="Greater">Carregador p/ carro eletrico</option> 
                                 <option value="James's">Estacionamento</option> 
-                                <option value="Lesser">Lava-r·pido</option> 
+                                <option value="Lesser">Lava-r√°pido</option> 
                             </select>
 
                         </div>
@@ -134,7 +122,7 @@
                         <h4>Empresa</h4>
                         <ul>
                             <li><a href=""> Quem somos </a></li>
-                            <li><a href=""> Nossos serviÁos </a></li>
+                            <li><a href=""> Nossos servi√ßos </a></li>
                             <li><a href=""> Politica de privacidade </a></li>
                             <li><a href=""> Nossos Parceiros</a></li>
                         </ul>
@@ -145,14 +133,14 @@
                         <h4>Obter ajuda</h4>
                         <ul>
                             <li><a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a></li>
-                            <li><a href="https://precos.petrobras.com.br/">Entenda a politica de preÁos da Petrobras</a></li>
+                            <li><a href="https://precos.petrobras.com.br/">Entenda a politica de pre√ßos da Petrobras</a></li>
                         </ul>
                     </div>
                     <div class="footer-col">
-    <!--                     <h4>Envie uma sugest„o!</h4> -->
+    <!--                     <h4>Envie uma sugest√£o!</h4> -->
     <!--                     <div class="form-sub"> -->
     <!--                         <form> -->
-    <!--                             <input type="text" placeholder="Digite aqui sua sugest√£o" required> -->
+    <!--                             <input type="text" placeholder="Digite aqui sua sugest√É¬£o" required> -->
     <!--                             <button>Enviar</button> -->
     <!--                         </form> -->
     <!--                     </div> -->

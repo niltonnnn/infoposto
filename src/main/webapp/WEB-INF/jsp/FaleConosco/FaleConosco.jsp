@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html;  charset=UTF-8;"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -30,7 +30,7 @@
                     <div class="wrap-input100 validate-input" data-validate = "Preencha o campo com o seu nome">
 						<input class="input100" type="nome" name="name" placeholder="Digite seu nome">
 					</div>
-					<div class="wrap-input100 validate-input" data-validate = "Digite um email válido: ex:fulano@hotmail.com">
+					<div class="wrap-input100 validate-input" data-validate = "Digite um email vÃ¡lido: ex:fulano@hotmail.com">
 						<input class="input100" type="text" name="email" placeholder="Email">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">

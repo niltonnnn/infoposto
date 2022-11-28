@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html;  charset=UTF-8;"
+    pageEncoding="UTF-8"%>
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
     <%@ taglib uri= "http://java.sun.com/jsp/jstl/fmt"  prefix="fmt" %>
     <%@page import="br.edu.itb.academico.model.Posto,java.util.*"%>
@@ -17,20 +17,7 @@
 
   <!--conteudo-->
   <body>
-    <div id="area-cabecalho">
-        <div id="area-logo">
-            <h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
-        </div>
-        <div id="area-menu">
-            <a href="">Cadastrar posto</a>
-            <a href="">Cadastrar serviço</a>
-            <a href="">Cadastrar bandeira</a>
-            <a href="">Mensagens</a>
-            <a href="">Sair</a>
-<!--             <a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a> -->
-        </div>
-    </div>
-
+    <%@ include file="../menu-admin.jsp" %>
     <div>
         	<div>
 		<p class="titulo">
@@ -52,13 +39,13 @@
 							src="https://site.zuldigital.com.br/blog/wp-content/uploads/2020/09/shutterstock_339529217_Easy-Resize.com_.jpg"
 							height="75px" width="90px">
 					</div>
-					<ul class="avaliacao">
-						<li class="star-icon ativo" data-avaliacao="1"></li>
-						<li class="star-icon ativo" data-avaliacao="2"></li>
-						<li class="star-icon ativo" data-avaliacao="3"></li>
-						<li class="star-icon ativo" data-avaliacao="4"></li>
-						<li class="star-icon" data-avaliacao="5"></li>
-					</ul>
+<!-- 					<ul class="avaliacao"> -->
+<!-- 						<li class="star-icon ativo" data-avaliacao="1"></li> -->
+<!-- 						<li class="star-icon ativo" data-avaliacao="2"></li> -->
+<!-- 						<li class="star-icon ativo" data-avaliacao="3"></li> -->
+<!-- 						<li class="star-icon ativo" data-avaliacao="4"></li> -->
+<!-- 						<li class="star-icon" data-avaliacao="5"></li> -->
+<!-- 					</ul> -->
 					<div class="texto">
 						<b class="ze">${posto.getNomePosto()}</b>
 						<h2 class="ze1">${posto.getEndereco()}</h2>

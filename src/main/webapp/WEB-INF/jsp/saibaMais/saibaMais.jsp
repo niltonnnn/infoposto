@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html;  charset=UTF-8;"
+    pageEncoding="UTF-8"%>
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
     <%@ taglib uri= "http://java.sun.com/jsp/jstl/fmt"  prefix="fmt" %>
 
@@ -17,13 +17,13 @@
         <%@ include file="../menu.jsp" %>
         
        	<div>
-       		<h5>InfoPosto saiba tudo sobre o posto mais proximo a voc�!</h5>
+       		<h5>InfoPosto saiba tudo sobre o posto mais proximo a você!</h5>
             <p class="">
-            InfoPosto surgiu com a ideia de poder solucionar um grande poblema, a falta de informa��es
-                sobre postos de gasolina na cidade de Barueri, ao qual o cliente estaria disposto a abastecer além do mais, o InfoPosto trouxe outros
-                diversos servi�os como: Desconto no seu abastecimento atrav�s do nosso app, Not�cias diarias sobre o Petr�leo, cadastro dos posto de barueri.
-                diversos servi�os como: Desconto no seu abastecimento através do nosso app, Notícias diarias sobre o Petróleo, cadastro dos posto de barueri.
-            Venha conferir isso e muito mais aqui no InfoPosto, faça já o seu cadstro e comece a interajir com a nossa comunidade, ajudando-nos com a sua experiencia em cada abastecimento!
+            InfoPosto surgiu com a ideia de poder solucionar um grande poblema, a falta de informações
+                sobre postos de gasolina na cidade de Barueri, ao qual o cliente estaria disposto a abastecer alÃ©m do mais, o InfoPosto trouxe outros
+                diversos serviços como: Desconto no seu abastecimento através do nosso app, Notícias diarias sobre o Petróleo, cadastro dos posto de barueri.
+                diversos serviços como: Desconto no seu abastecimento atravÃ©s do nosso app, NotÃ­cias diarias sobre o PetrÃ³leo, cadastro dos posto de barueri.
+            Venha conferir isso e muito mais aqui no InfoPosto, faÃ§a jÃ¡ o seu cadstro e comece a interajir com a nossa comunidade, ajudando-nos com a sua experiencia em cada abastecimento!
             </p>
        		
        	</div>

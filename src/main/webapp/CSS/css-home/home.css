@@ -4,6 +4,7 @@ body {
     background: #ffffff;
     font-size: 1em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    width:100%
 }
 
 /* Layout */
@@ -319,8 +320,7 @@ body {
 	margin: 4 2.0%;
 	padding: 45px 25px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 30px;
+
 }
 
 .produtos li:hover {

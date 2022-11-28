@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html;  charset=UTF-8;"
+    pageEncoding="UTF-8"%>
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
     <%@ taglib uri= "http://java.sun.com/jsp/jstl/fmt"  prefix="fmt" %>
 <!DOCTYPE html>
@@ -17,14 +17,15 @@
 </head>
 <div id="area-cabecalho">
         <div id="area-logo">
-            <h1 href="http://localhost:8080/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
+            <h1 href="/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
         </div>
         <div id="area-menu">
             <a href="/infoposto/web?action=HomeAction">Home</a>
             <a href="/infoposto/web?action=FrmBlogAction">Blog</a>
-            <a href="/infoposto/web?action=FrmLoginAction">Login</a>
-            <a href="/infoposto/web?action=FrmCadastroUsuario">Cadastre-se</a>
             <a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a>
+            <a href="/infoposto/web?action=FrmLoginAction" style ="float:right">Login</a>
+            <img src ="IMG/user.png"style="float:right;width:2vw">
+             
         </div>
 </div>
 </html>
