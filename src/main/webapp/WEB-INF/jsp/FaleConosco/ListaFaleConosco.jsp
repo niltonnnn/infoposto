@@ -49,6 +49,11 @@
 			
 		</div>
 	</div>
+	<a href="/infoposto/web?action=FrmFaleConosco" style="font-weight:bold;background:#00FFFF;color:black;border-radius: 20px;position:absolute;widht:80px;height:25px;left:60%;margin-left:-200px; padding-bottom:30px;border-style:solid;border-width:1px;">
+		Fale Conosco
+	</a>
+<br>
+<br>
  <%@ include file="../footer.jsp" %>	
 
 
