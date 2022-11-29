@@ -40,8 +40,9 @@ public class ListaAction implements Action {
 				Double valor = rs.getDouble("ValorUsuario");
 				String bandeira = rs.getString("Bandeira");
 				String servicos = rs.getString("Servicos");
+				String cnpj = rs.getString("Cnpj");
 
-				Posto p = new Posto(nomedono, nomeposto, endereco, bairro, numero, email, valor, senha,bandeira,servicos);
+				Posto p = new Posto(nomedono, nomeposto, endereco, bairro, numero, email, valor, senha,bandeira,servicos,cnpj);
 				listaPostos.add(p);
 
 			}
@@ -76,8 +77,9 @@ public class ListaAction implements Action {
 
 			String bandeira = rs.getString("Bandeira");
 			String servicos = rs.getString("Servicos");
+			String cnpj = rs.getString("Cnpj");
 
-			Posto p = new Posto(nomedono, nomeposto, endereco, bairro, numero, email, valor, senha,bandeira,servicos);
+			Posto p = new Posto(nomedono, nomeposto, endereco, bairro, numero, email, valor, senha,bandeira,servicos,cnpj);
 			listaPostos.add(p);
 
 		}
