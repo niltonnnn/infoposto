@@ -9,9 +9,8 @@ public abstract class ConnectionFactory {
 
 
     public static Connection conn = null;
-    private final static String URLSQLSERVER = "jdbc:sqlserver://DESKTOP-L0N3OP9\\FTZ;user=sa;password=123456;databaseName=InfoPosto";
-//    private final static String  URLSQLSERVER = "jdbc:sqlserver://localhost:1433;"
-//            + "user=sa;password=123456;databaseName=InfoPosto";
+    private final static String URLSQLSERVER = "jdbc:sqlserver://localhost:1433;"
+            + "user=sa;password=Mikael19;databaseName=InfoPosto";
 
     public static Connection getConnectionSqlServer () throws SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver").getDeclaredConstructor().newInstance();

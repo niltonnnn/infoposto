@@ -8,9 +8,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="./../css/home.css">
-    <link rel="stylesheet" type="text/css" href="./../css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="./../css/slick-theme.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 <title>InfoPosto - Admin</title>
 </head>
@@ -21,37 +19,36 @@
 		List<FaleConosco> f = ListaAction.getAllMessages();
 		request.setAttribute("mensagens", f);
 		%>
-		<h1 style= "margin:auto; width:30%">Lista de contatos</h1>
-		<div style= "margin:auto; width:50%">
-
-		<table>
-			<tr>
-				<th>Código</th>
-				<th>Nome</th>
-				<th>Email</th>
-				<th>Mensagem</th>
-				<th>Resposta</th>
-				<th>Data</th>
-				<th></th>
-				<th></th>
-			</tr>
+		<div class="row">
+		<div class="cold-md-15">
+			<hr>
+			<h3>Mensagens: Fale Conosco</h3>
+			<hr>
+			<table class="table" style="text-align:center;">
+				<thead>
+					<tr style="background-color:#A9A9A9; font-size:15px;">
+						<tr>
+						<th>Código</th>
+						<th>Nome</th>
+						<th>Email</th>
+						<th>Mensagem</th>
+					</tr>
+					</tr>
+				</thead>
+				<tbody>
+				<c:forEach items="${mensagens}" var="contato">
+					<tr style="text-align:center;font-size:14px;">
+						<td>${contato.getCodigo() }</td>
+						<td>${contato.getNome()}</td>
+						<td>${contato.getEmail()}</td>
+						<td>${contato.getMensagem()}</td>
+					</tr>
+				</c:forEach>
+				</tbody>
+			</table>
 			
-		<c:forEach items="${mensagens}" var="contato">
-			<tr>
-				<td>${contato.getCodigo() }</td>
-				<td>${contato.getNome()}</td>
-				<td>${contato.getEmail()}</td>
-				<td>${contato.getMensagem()}</td>
-				<td>${contato.getResposta()}</td>
-				<td>${contato.getDataResposta()}
-				
-		    </tr>
-			</c:forEach>
-
-		</table>
-		<br>
-		<br>
 		</div>
+	</div>
  <%@ include file="../footer.jsp" %>	
 
 
