@@ -51,7 +51,13 @@
 <!-- 					</ul> -->
 					<div class="texto">
 						<b class="ze">${posto.getNomePosto()}</b>
-						<h2 class="ze1">${posto.getEndereco()}</h2>
+						<h2 class="ze1">Endereço: ${posto.getEndereco()}</h2>
+					    <h2 class="ze1">Nome dono :${posto.getNomeDono()}</h2>
+					    <h2 class="ze1">Email: ${posto.getEmail()}</h2>
+					    <h2 class="ze1">Valor: ${posto.getValorCombustivel()}</h2>
+					    <h2 class="ze1">Bandeira: ${posto.getBandeira()}</h2>
+					      <h2 class="ze1">Serviços: ${posto.getServicos()}</h2>
+					        <h2 class="ze1">CNPJ :${posto.getCnpj()}</h2>
 					</div>
 				</div>
 			</div>

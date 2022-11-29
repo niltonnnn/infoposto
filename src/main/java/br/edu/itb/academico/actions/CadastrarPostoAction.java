@@ -37,8 +37,9 @@ public class CadastrarPostoAction extends HttpServlet   {
 				senhausuario = request.getParameter("senhausuario");				
 				bandeira = request.getParameter("bandeira");
 				servicos = request.getParameter("servicos");
+				
 				PreparedStatement ps = con.prepareStatement("INSERT INTO tbPosto(NomeDono, NomePosto, Endereco , Bairro , "
-						+ "Email, Numero, ValorCombustivel, SenhaUsuario,Bandeira,Servicos)VALUES(?,?,?,?,?,?,?,?,?,?)");
+						+ "Email, Numero, ValorCombustivel, SenhaUsuario,Bandeira,Servicos,Cnpj)VALUES(?,?,?,?,?,?,?,?,?,?,?)");
 				ps.setString(1, nomedono);
 				ps.setString(2, nomeposto);
 				ps.setString(3, endereco);
@@ -49,6 +50,7 @@ public class CadastrarPostoAction extends HttpServlet   {
 				ps.setString(8, senhausuario);
 				ps.setString(9, bandeira);
 				ps.setString(10, servicos);
+				ps.setString(11, cnpj);
 				ps.execute();
 				
 				 request.getRequestDispatcher("/WEB-INF/jsp/ListaDePostos/ListaDePostos.jsp").forward(request, response);

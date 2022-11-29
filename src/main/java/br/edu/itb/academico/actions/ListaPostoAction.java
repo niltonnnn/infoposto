@@ -41,8 +41,9 @@ public class ListaPostoAction extends HttpServlet  {
 			Double valor = rs.getDouble("ValorUsuario");
 			String bandeira = rs.getString("Bandeira");
 			String servicos = rs.getString("Servicos");
+			String cnpj = rs.getString("cnpj");
 
-			Posto p = new Posto(nomedono, nomeposto, endereco, bairro, numero, email, valor, senha,bandeira,servicos);
+			Posto p = new Posto(nomedono, nomeposto, endereco, bairro, numero, email, valor, senha,bandeira,servicos,cnpj);
 			listaPostos.add(p);
 
 		}
