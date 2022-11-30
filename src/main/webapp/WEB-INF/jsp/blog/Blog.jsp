@@ -28,20 +28,6 @@
             </div> 
             
         </div>
-        <div id="area-lateral">
-                <div class="conteudo-lateral">
-                    <h3>Postagens recentes</h3>
-                    <div class="texto-lateral">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="">Leia mais</a>
-                    </div>
-                    <hr>
-                    <div class="texto-lateral">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="">Leia mais</a>
-                    </div>
-                </div>
-            </div>
         
         <div class="area-postagens">
             <div class="postagem">
