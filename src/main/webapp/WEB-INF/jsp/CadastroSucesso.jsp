@@ -61,7 +61,7 @@ i {
 			
 		</div>
 		<h1 id="sucesso">Sucesso</h1>
-		<p>
+		<p style="font-size:25px;color:black;">
 			Cadastrado com sucesso!!!
 		</p>
 	</div>

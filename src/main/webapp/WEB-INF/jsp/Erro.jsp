@@ -60,8 +60,10 @@ i {
 			<img src="https://th.bing.com/th/id/OIP.hkRXjcphUEBgob5Fq26r7gHaHa?pid=ImgDet&rs=1" height="200px" width="200px"></img>
 		</div>
 		<h1 id="sucesso">Erro</h1>
-		<p>
+		<p style="font-size:25px;color:red;">
 			Usuário ou senha errado!!!
+			<br>
+			Verifique se não faltou algum digito
 		</p>
 	</div>
 	</div>
