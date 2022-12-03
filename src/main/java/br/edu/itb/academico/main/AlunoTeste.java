@@ -1,15 +1,6 @@
 package br.edu.itb.academico.main;
 
 import java.sql.Connection;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
-
-import br.edu.itb.academico.database.ConnectionFactory;
-import br.edu.itb.academico.model.Aluno;
-import br.edu.itb.academico.service.AlunoDao;
 
 public class AlunoTeste {
 

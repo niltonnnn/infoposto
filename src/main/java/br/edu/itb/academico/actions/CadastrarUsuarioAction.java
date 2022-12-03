@@ -26,16 +26,18 @@ public class CadastrarUsuarioAction extends HttpServlet {
 		try {
 				
 				Connection con = ConnectionFactory.getConnectionSqlServer();
-				String nome,email,senha,ativo;
+				String nome,email,senha,ativo,admin;
 				nome = request.getParameter("nome");
 				email = request.getParameter("email");
 				senha = request.getParameter("senha");
 				ativo = "S";
-				PreparedStatement ps = con.prepareStatement("INSERT INTO tbLogin(EMAIL,SENHA,ATIVO,NOME)VALUES(?,?,?,?)");
+				admin = "N";
+				PreparedStatement ps = con.prepareStatement("INSERT INTO tbLogin(EMAIL,SENHA,ATIVO,NOME,ADMIN)VALUES(?,?,?,?,?)");
 				ps.setString(1, email);
 				ps.setString(2, senha);
 				ps.setString(3, ativo);
 				ps.setString(4, nome);
+				ps.setString(5, admin);
 				ps.execute();
 				
 				 request.getRequestDispatcher("/WEB-INF/jsp/CadastroSucesso.jsp").forward(request, response);

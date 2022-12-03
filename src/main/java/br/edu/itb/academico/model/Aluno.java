@@ -1,8 +1,5 @@
 package br.edu.itb.academico.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Aluno extends Usuario {
 	
 	public Aluno() {

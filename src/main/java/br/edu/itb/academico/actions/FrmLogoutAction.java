@@ -1,19 +1,17 @@
 package br.edu.itb.academico.actions;
 
-
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
-// localhost:8080/infoposto/web?action=HomeAction
-
-public class HomeAction implements Action {
+public class FrmLogoutAction implements Action {
 
 	@Override
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		
-	
-
+		 HttpSession session = request.getSession(false);
+		 session.invalidate();
+		
 		return "/WEB-INF/jsp/home/home.jsp";
 	}
 

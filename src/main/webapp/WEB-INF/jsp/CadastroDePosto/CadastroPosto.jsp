@@ -78,7 +78,7 @@
                         <div class="gender-group" id="bandeira" disabled>
                             <select class="form-control selectpicker" name="bandeira">
                                 <option value="Ipiranga">Ipiranga</option>
-                                ]<option value="Shell">Shell</option>
+                                <option value="Shell">Shell</option>
                                 <option value="Petrobras">Petrobras</option>
                                 <option value="Ale">Ale</option>
                                 <option value="Boxter">Boxter</option>

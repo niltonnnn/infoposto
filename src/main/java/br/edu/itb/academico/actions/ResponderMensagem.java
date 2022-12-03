@@ -4,72 +4,43 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Date;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 import br.edu.itb.academico.database.ConnectionFactory;
 
-@WebServlet("/LoginAction")
-public class LoginAction extends HttpServlet {
-
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-
+@WebServlet("/ResponderMensagem")
+public class ResponderMensagem extends HttpServlet   {
+	
+	//https://www.4devs.com.br/gerador_de_cnpj
+	
+	private static final long serialVersionUID = 1L; 
+	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		try {
 				
 				Connection con = ConnectionFactory.getConnectionSqlServer();
-				String email,senha,admin = null;
 				
-				email = request.getParameter("email");
-				senha = request.getParameter("senha");
-				boolean status = false;
-		
+				String Resposta = "";
+				long millis=System.currentTimeMillis();  
+				java.sql.Date date=new java.sql.Date(millis);  
+				int Codigo = 0;
 				
-				PreparedStatement ps = con.prepareStatement("SELECT * FROM tbLogin WHERE EMAIL = ? AND SENHA = ?");
-				ps.setString(1, email);
-				ps.setString(2, senha);
-			
-				String nomeLogado = "";
-			    ResultSet rs = ps.executeQuery();
-				while (rs.next()) {
-					
-					admin = rs.getString("Admin");
-					status = true;
-					nomeLogado = rs.getString("Nome");
-				}
+				Codigo =  Integer.parseInt(request.getParameter("codigo"));
+				Resposta = request.getParameter("resposta");
+	  		PreparedStatement ps = con.prepareStatement("UPDATE tbFaleConosco SET Resposta =?, DataResposta=? WHERE Codigo = ?");
+				ps.setString(1,Resposta);
+				ps.setDate(2, date);
+				ps.setInt(3, Codigo);
+				ps.execute();
 				
-				 HttpSession session = request.getSession();
-			   
-			    if(status) {
-			    System.out.print("logado");	
-			
-			    if (admin.equals("S")) {
-			    	session.setAttribute("Admin", "S");
-			    	session.setAttribute("User", nomeLogado);
-			        request.getRequestDispatcher("/WEB-INF/jsp/ListaDePostos/ListaDePostos.jsp").forward(request, response);
-			    }else {
-			    	request.setAttribute("Admin", "N");
-			    	request.getRequestDispatcher("/WEB-INF/jsp/ListaDePostos/ListaDePostos.jsp").forward(request, response);
-			    	
-			    }
-			
-			    	
-			    }else {
-			     System.out.print("inválido");	
-			     request.getRequestDispatcher("/WEB-INF/jsp/Erro.jsp").forward(request, response);
-			     
-			    }
-				
-
+				 request.getRequestDispatcher("/WEB-INF/jsp/FaleConosco/ListaFaleConosco.jsp").forward(request, response);
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -96,8 +67,7 @@ public class LoginAction extends HttpServlet {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
-		}
+}
 
 	
 }
