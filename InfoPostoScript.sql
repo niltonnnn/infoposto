@@ -47,6 +47,7 @@ CREATE TABLE [dbo].[tbLogin](
 	[Senha] [varchar](20) NULL,
 	[Ativo] [char](1) NULL,
 	[Nome] [nvarchar](50) NULL,
+	[Admin] [char](1) NULL,
 PRIMARY KEY CLUSTERED 
 (
 	[IdUsuario] ASC
@@ -74,12 +75,4 @@ Cnpj VARCHAR(20),
 
 SELECt*FROM tbPosto
 
-
-CREATE TABLE tbServico(
-CodigoServico INT IDENTITY PRIMARY KEY, 
-NomeServico VARCHAR(50),
-
-)
-
-CREATE TABLE tbPostoServico(CodgioPostoServico INT IDENTITY PRIMARY KEY, CodigoServico INT,CodigoPosto INT)
 

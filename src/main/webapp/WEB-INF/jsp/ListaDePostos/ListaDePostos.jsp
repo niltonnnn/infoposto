@@ -26,13 +26,13 @@
 			<br>
 			<br>
 		  <a href="/infoposto/web?action=FrmCadastroDePosto" style="padding-left:20vw ;font-weight:bold;">Cadastrar posto</a>
-		<%
+	<%
 		List<Posto> p = ListaAction.getAll();
 		request.setAttribute("postos", p);
 		%>
 
 		<h1>${posto.getNomeDono()}</h1>
-
+		
 
 		<c:forEach items="${postos}" var="posto">
 			<div class="div1">
