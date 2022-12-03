@@ -1,16 +1,9 @@
 package br.edu.itb.academico.actions;
 
-import java.sql.Connection;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Random;
+
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-
-import br.edu.itb.academico.service.AlunoDao;
 
 // localhost:8080/infoposto/web?action=HomeAction
 

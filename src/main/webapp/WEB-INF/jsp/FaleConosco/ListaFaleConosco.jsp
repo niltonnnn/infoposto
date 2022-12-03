@@ -42,6 +42,8 @@
 						<td>${contato.getNome()}</td>
 						<td>${contato.getEmail()}</td>
 						<td>${contato.getMensagem()}</td>
+						<td><a href="/infoposto/web?action=ExcluirMensagemAction&codigo=${contato.getCodigo()}" >Excluir</a></td>
+						<td><a href ="/infoposto/web?action=FrmResponderMensagem&codigo=${contato.getCodigo()}">Responder</a></td>
 					</tr>
 				</c:forEach>
 				</tbody>

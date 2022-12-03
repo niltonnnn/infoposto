@@ -1,7 +1,5 @@
 package br.edu.itb.academico.service;
 
-import java.sql.Connection;
-
 public abstract class Dao {
 	
 	
