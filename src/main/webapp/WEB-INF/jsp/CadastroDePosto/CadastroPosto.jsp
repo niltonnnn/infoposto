@@ -26,7 +26,7 @@
                
                     <div class="form-header">
                         <div class="title">
-                            <h1>Cadastre seu Posto!</h1>
+                            <h1 style="color: black;font-weight: bold;margin-bottom: -15px;margin-top:25px;">Cadastre seu Posto!</h1>
                         </div>
                     </div>
     
@@ -57,17 +57,12 @@
                         </div>
                         <div class="input-box">
                             <label for="cnpj">CNPJ</label>
-                            <input id="cnpj" type="text" name="cnpj" placeholder="Digite seu CNPJ" maxlength="14" autocomplete="off" required>
+                            <input id="cnpj" type="text" name="cnpj" placeholder="Digite seu CNPJ" maxlength="18" autocomplete="off" required>
                         </div>
                         <div class="input-box">
                             <label for="combustivel">Valor do combústivel</label>
                             <input id="combustivel" type="text" name="valorcombustivel" placeholder="R$ 5,50" maxlength="4" required>
                         </div>
-                        <div class="input-box">
-                            <label for="Senha">Senha de usuario</label>
-                            <input id="Senha" type="password" name="senhausuario" placeholder="Digite sua senha de usuario" required>
-                        </div>
-                        
     
                     </div>
     
@@ -105,8 +100,8 @@
                         
                     </div>
 
-                    <div class="continue-button">
-               			 <button type="submit" >Cadastrar</button>	
+                    <div class="container-login100" style="text-align: center; margin-top: 30px;">
+               			 <button type="submit" style="height: 35px;width: 40%; color: black;font-weight: bold;margin-bottom: 25px; background: #00D3AD; border-radius: 10px;">Cadastrar</button>	
                 	</div>
 
                         
