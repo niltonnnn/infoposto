@@ -53,7 +53,7 @@ public class AlunoDao extends Dao  {
 			ResultSet rs = stmt.executeQuery();
 			while(rs.next()) {
 				Aluno aluno = new Aluno();
-				aluno.setId(rs.getLong("id"));
+			
 				aluno.setMatricula(rs.getString("matricula"));
 				aluno.setNome(rs.getString("nome"));
 				Calendar data_nascimento = Calendar.getInstance();
@@ -134,7 +134,7 @@ public class AlunoDao extends Dao  {
 			ResultSet rs = stmt.executeQuery();
 			while(rs.next()) {
 				Aluno aluno = new Aluno();
-				aluno.setId(rs.getLong("id"));
+				
 				aluno.setNome(rs.getString("nome"));
 				aluno.setMatricula(rs.getString("matricula"));
 				aluno.setEmail(rs.getString("email"));

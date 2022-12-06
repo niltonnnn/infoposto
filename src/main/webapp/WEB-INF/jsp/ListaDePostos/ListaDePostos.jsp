@@ -25,7 +25,8 @@
 			<br>
 			<br>
 			<br>
-		  <a href="/infoposto/web?action=FrmCadastroDePosto" style="padding-left:20vw ;font-weight:bold;">Cadastrar posto</a>
+			
+		 
 	<%
 		List<Posto> p = ListaAction.getAll();
 		request.setAttribute("postos", p);
@@ -56,8 +57,10 @@
 					    <h2 class="ze1">Email: ${posto.getEmail()}</h2>
 					    <h2 class="ze1">Valor: ${posto.getValorCombustivel()}</h2>
 					    <h2 class="ze1">Bandeira: ${posto.getBandeira()}</h2>
-					      <h2 class="ze1">Serviços: ${posto.getServicos()}</h2>
-					        <h2 class="ze1">CNPJ :${posto.getCnpj()}</h2>
+					    <h2 class="ze1">Serviços: ${posto.getServicos()}</h2>
+					    <h2 class="ze1">CNPJ :${posto.getCnpj()}</h2>
+					    <a href="/infoposto/web?action=ExcluirPostoWEB&codigo=${posto.getCnpj()}"><button>Excluir</button></a>
+<%-- 					    <a href="/infoposto/web?action=ExcluirPostoWEB&codigo=${posto.getCnpj()}"><button>Alterar</button></a> --%>
 					</div>
 				</div>
 			</div>
@@ -72,37 +75,7 @@
 
 
       <script>
-         var stars = document.querySelectorAll('.star-icon');       
-         document.addEventListener('click', function(e){
-          var classStar = e.target.classList;
-          if(!classStar.contains('ativo')){
-          stars.forEach(function(star){
-          star.classList.remove('ativo');
-       });
-          classStar.add('ativo');
-          console.log(e.target.getAttribute('data-avaliacao'));
-          }
-		});
-        
-        function iniciaModal(modalId) {
-            const modal = document.getElementById(modalId);
-            modal.classList.add('mostrar');
-            modal.addEventListener('click', (e) => {
-                if(e.target.id == modalId || e.target.className ==  'fechar') {
-                    modal.classList.remove('mostrar');
-                }
-            })
-        }
-        const Posto1 = document.querySelector('.Posto1');
-        Posto1.addEventListener('click', () => iniciaModal('modal-Posto1'));
-        const Posto2 = document.querySelector('.Posto2');
-        Posto2.addEventListener('click', () => iniciaModal('modal-Posto2'));
-        const Posto3 = document.querySelector('.Posto3');
-        Posto3.addEventListener('click', () => iniciaModal('modal-Posto3'));
-        const Posto4 = document.querySelector('.Posto4');
-        Posto4.addEventListener('click', () => iniciaModal('modal-Posto4'));
-        const Posto5 = document.querySelector('.Posto5');
-        Posto5.addEventListener('click', () => iniciaModal('modal-Posto5'));
+      
       </script>
 
 

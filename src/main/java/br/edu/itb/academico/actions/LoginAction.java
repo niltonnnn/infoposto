@@ -58,6 +58,7 @@ public class LoginAction extends HttpServlet {
 			        request.getRequestDispatcher("/WEB-INF/jsp/ListaDePostos/ListaDePostos.jsp").forward(request, response);
 			    }else {
 			    	request.setAttribute("Admin", "N");
+			    	session.setAttribute("User", nomeLogado);
 			    	request.getRequestDispatcher("/WEB-INF/jsp/ListaDePostos/ListaDePostos.jsp").forward(request, response);
 			    	
 			    }

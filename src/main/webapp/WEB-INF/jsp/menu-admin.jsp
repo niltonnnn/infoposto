@@ -23,7 +23,9 @@
                     if (Admin == "S") 
                     { 
                 %>
-            <a href="/infoposto/web?action=FrmListaFaleConosco">Mensagens</a>
+            <a href="/infoposto/web?action=FrmListaFaleConosco">Mensagens</a> 
+            <a href="/infoposto/web?action=FrmCadastroDePosto">Cadastrar posto</a>
+          	<a href="/infoposto/web?action=FrmListaUsuarios">Usuários</a>
            <% } 
                 %>
                <a href="/infoposto/web?action=FrmLogoutAction">Sair</a>

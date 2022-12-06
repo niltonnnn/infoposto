@@ -12,12 +12,12 @@ public class ExcluirPostoWEB implements Action  {
 		public String executa(HttpServletRequest request, HttpServletResponse response) throws Exception {
 			
 		try {
-			int Codigo = Integer.parseInt(request.getParameter("codigo"));
+			String Cnpj = request.getParameter("codigo");
 			
 			Connection con = ConnectionFactory.getConnectionSqlServer();
 //			
-			PreparedStatement ps = con.prepareStatement("DELETE FROM tbPosto WHERE Codigo =?");
-			ps.setInt(1, Codigo);
+			PreparedStatement ps = con.prepareStatement("DELETE FROM tbPosto WHERE Cnpj =?");
+			ps.setString(1, Cnpj);
 			ps.execute();
 			return "/WEB-INF/jsp/ListaDePostos/ListaDePostos.jsp";
 			

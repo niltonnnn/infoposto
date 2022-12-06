@@ -6,9 +6,7 @@ public class Aluno extends Usuario {
 		
 	}
 	
-	public Aluno(String nome, String matricula, String tipoUsuario, String email, String senha) {
-		super(nome, matricula, tipoUsuario, email, senha);
-	}
+	
 
 	
 	protected String situacao;

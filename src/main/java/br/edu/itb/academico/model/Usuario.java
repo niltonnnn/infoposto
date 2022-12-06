@@ -6,13 +6,13 @@ import java.util.Calendar;
 
 
 
-public abstract class Usuario {
+public  class Usuario {
 	
-	protected Long id;
+	protected int id;
 	protected String nome;
 	protected String cpf;
 	protected String matricula;
-	protected String tipoUsuario;
+	protected String admin;
 	protected Calendar dataNascimento;
 	protected String email;
 	protected String senha;
@@ -33,12 +33,12 @@ public abstract class Usuario {
 		
 	}
 	
-	public Usuario(String nome, String matricula, String tipoUsuario, String email, String senha) {
-		this.nome = nome;
-		this.matricula = matricula;
-		this.tipoUsuario = tipoUsuario;
-	//	this.email = this.isValidEmailAddress(email) ? email : null;
-		this.senha = senha;
+	public Usuario(int id , String nome,String email,String senha,String admin) {
+		this.setNome(nome);
+		this.setEmail( email);
+		this.setSenha( senha);
+		this.setTipoUsuario(admin);
+		this.setId (id);
 	}
 	/*
 	   private  boolean isValidEmailAddress(String email) {
@@ -51,10 +51,10 @@ public abstract class Usuario {
 	        }
 	        return result;
 	    }*/
-	public Long getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(Long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getNome() {
@@ -70,10 +70,10 @@ public abstract class Usuario {
 		this.matricula = matricula;
 	}
 	public String getTipoUsuario() {
-		return tipoUsuario;
+		return admin;
 	}
 	public void setTipoUsuario(String tipoUsuario) {
-		this.tipoUsuario = tipoUsuario;
+		this.admin = tipoUsuario;
 	}
 	public Calendar getDataNascimento() {
 		return dataNascimento;
