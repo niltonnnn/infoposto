@@ -50,11 +50,11 @@
 <!-- 						<li class="star-icon" data-avaliacao="5"></li> -->
 <!-- 					</ul> -->
 					<div class="texto">
-						<b class="ze">${posto.getNomePosto()}</b>
+						<b class="ze" style="font-weight: bold; font-size:21px;">${posto.getNomePosto()}</b>
 						<h2 class="ze1">Endereço: ${posto.getEndereco()}</h2>
 					    <h2 class="ze1">Nome dono :${posto.getNomeDono()}</h2>
 					    <h2 class="ze1" style="margin-left: 109px;">Email: ${posto.getEmail()}</h2>
-					    <h2 class="ze1" style="margin-left: 109px;">Valor: ${posto.getValorCombustivel()}</h2>
+					    <h2 class="ze1" style="margin-left: 109px;">Valor do Combustivel: R$${posto.getValorCombustivel()}</h2>
 					    <h2 class="ze1" style="margin-left: 109px;">Bandeira: ${posto.getBandeira()}</h2>
 					    <h2 class="ze1" style="margin-left: 109px;">Serviços: ${posto.getServicos()}</h2>
 					    <h2 class="ze1" style="margin-left: 109px;">CNPJ :${posto.getCnpj()}</h2>
@@ -64,8 +64,8 @@
 	                    if (Admin == "S") 
 	                    {  
                 		%> 
-                		<a href="/infoposto/web?action=ExcluirPostoWEB&codigo=${posto.getCnpj()}"><button style="height: 25px;width: 10%; color: black;font-weight: bold;margin-bottom: 25px; background: #00D3AD; border-radius: 10px;">Excluir</button></a>
-					    <a href="/infoposto/web?action=AlterarPosto&codigo=${posto.getCnpj()}"><button style="height: 25px;width: 10%; color: black;font-weight: bold;margin-bottom: 25px; background: #00D3AD; border-radius: 10px;">Alterar</button></a>
+                		<a href="/infoposto/web?action=ExcluirPostoWEB&codigo=${posto.getCnpj()}"><button style="height: 25px;width: 10%; color: black;font-weight: bold;margin-bottom: 25px; background: #00D3AD; border-radius: 10px;cursor: pointer;">Excluir</button></a>
+					    <a href="/infoposto/web?action=AlterarPosto&codigo=${posto.getCnpj()}"><button style="height: 25px;width: 10%; color: black;font-weight: bold;margin-bottom: 25px; background: #00D3AD; border-radius: 10px;float:right;cursor: pointer;">Alterar</button></a>
                 		<% } 
                 			%>
 					 </div>

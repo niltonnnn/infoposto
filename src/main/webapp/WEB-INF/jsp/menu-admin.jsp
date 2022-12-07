@@ -13,9 +13,7 @@
         <div id="area-logo">
             <h1 href="/infoposto/web?action=HomeAction">Info<span class="branco">Posto</span></h1>
         </div>
-        <div id="area-menu">
-        
-      		 <p style = "color: white; float:right; font-size:1.5vh">Bem vindo ${User} !!</p>
+        <div id="area-menu" style="margin-top:-20px;">
         	<a href="/infoposto/web?action=FrmListaPostos">Postos </a>
               <% 
               String Admin = (String)request.getSession().getAttribute("Admin"); 
@@ -30,6 +28,7 @@
                 %>
                <a href="/infoposto/web?action=FrmLogoutAction">Sair</a>
 <!--             <a href="/infoposto/web?action=FrmFaleConosco">Fale Conosco</a> -->
+			<p style = "color: white; font-size:15px; text-align: center;">Bem vindo ${User}!</p>
         </div>
     </div>
 
