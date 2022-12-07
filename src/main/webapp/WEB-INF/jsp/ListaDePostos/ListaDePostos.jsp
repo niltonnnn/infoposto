@@ -20,7 +20,7 @@
     <%@ include file="../menu-admin.jsp" %>
     <div>
         	<div>
-			<h1 style= "margin:auto; width:20%">Lista de postos</h1>
+			<h1 style= "text-align: center; color: black;">Lista de postos</h1>
 			<br>
 			<br>
 			<br>
@@ -36,7 +36,7 @@
 		
 
 		<c:forEach items="${postos}" var="posto">
-			<div class="div1">
+			<div class="div1" style="margin-top: -60px">
 				<div class="Posto1">
 					<div class="imagem1">
 						<img class="imagem"
@@ -54,12 +54,12 @@
 						<b class="ze">${posto.getNomePosto()}</b>
 						<h2 class="ze1">Endereço: ${posto.getEndereco()}</h2>
 					    <h2 class="ze1">Nome dono :${posto.getNomeDono()}</h2>
-					    <h2 class="ze1">Email: ${posto.getEmail()}</h2>
-					    <h2 class="ze1">Valor: ${posto.getValorCombustivel()}</h2>
-					    <h2 class="ze1">Bandeira: ${posto.getBandeira()}</h2>
-					    <h2 class="ze1">Serviços: ${posto.getServicos()}</h2>
-					    <h2 class="ze1">CNPJ :${posto.getCnpj()}</h2>
-					    <a href="/infoposto/web?action=ExcluirPostoWEB&codigo=${posto.getCnpj()}"><button>Excluir</button></a>
+					    <h2 class="ze1" style="margin-left: 109px;">Email: ${posto.getEmail()}</h2>
+					    <h2 class="ze1" style="margin-left: 109px;">Valor: R$${posto.getValorCombustivel()}</h2>
+					    <h2 class="ze1" style="margin-left: 109px;">Bandeira: ${posto.getBandeira()}</h2>
+					    <h2 class="ze1" style="margin-left: 109px;">Serviços: ${posto.getServicos()}</h2>
+					    <h2 class="ze1" style="margin-left: 109px;">CNPJ:${posto.getCnpj()}</h2>
+					    <a href="/infoposto/web?action=ExcluirPostoWEB&codigo=${posto.getCnpj()}"><button style="height: 25px;width: 10%; color: black;font-weight: bold;margin-bottom: 25px; background: #00D3AD; border-radius: 10px;">Excluir</button></a>
 <%-- 					    <a href="/infoposto/web?action=ExcluirPostoWEB&codigo=${posto.getCnpj()}"><button>Alterar</button></a> --%>
 					</div>
 				</div>
