@@ -43,10 +43,9 @@
 						<td>${usu.getNome()}</td>
 						<td>${usu.getEmail()}</td>
 						<td>${usu.getSenha()}</td>
-						
 					    <td>${usu.getTipoUsuario()}</td>
 						<td><a href="/infoposto/web?action=ExcluirUsuarioAction&id=${usu.getId()}" >Excluir</a></td>
-						<td><a href ="">Alterar</a></td>
+						<td><a href ="/infoposto/web?action=AlterarUsuario&id=${usu.getId()}">Alterar</a></td>
 					</tr>
 				</c:forEach>
 				</tbody>

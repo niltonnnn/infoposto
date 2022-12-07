@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>InfoPosto - Cadastro</title>
+		<title>InfoPosto - Alteração</title>
 		
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="IMG/images/icons/favicon.ico"/>
@@ -22,7 +22,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<%@ include file="../menu.jsp" %>
+<%@ include file="../menu-admin.jsp" %>
 <body>
 
 	<div class="limiter">
@@ -31,22 +31,23 @@
 				<div class="login100-pic js-tilt" data-tilt>
 					<img src="https://cdn-icons-png.flaticon.com/512/753/753399.png" alt="IMG">
 				</div>
-				<form class="login100-form validate-form" method = "post" action="${pageContext.request.contextPath}/CadastrarUsuarioAction">
+				<form class="login100-form validate-form" method = "post" action="${pageContext.request.contextPath}/AlteraUsuarioAction">
 					<span class="login100-form-title">
 						Alterar usuario
 					</span>
+					<input class="input100" type="text" value="${usuario.getId()}" name="id" placeholder="Nome" required style = "display:none;">
 					<div class="wrap-input100 validate-input" data-validate = "Digite seu nome">
-						<input class="input100" type="text" name="nome" placeholder="Nome" required>
+						<input class="input100" type="text" value="${usuario.getNome()}" name="nome" placeholder="Nome" required>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Digite um email válido: ex:fulano@hotmail.com">
-						<input class="input100" type="text" name="email" placeholder="Email" required>
+						<input class="input100" type="text" value="${usuario.getEmail()}" name="email" placeholder="Email" required>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 						</span>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Senha obrigadoria">
-						<input class="input100" type="password" name="senha" placeholder="Senha" required>
+						<input class="input100" type="text" value="${usuario.getSenha()}" name="senha" placeholder="Senha" required>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
@@ -55,12 +56,12 @@
 					
 					<div class="gender-inputs">
                         <div class="gender-title" style="text-align:center;">
-                            <h6>Admin</h6>
+                           
                         </div>
-                        <div class="gender-group" id="admin" disabled>
-                            <select class="form-control selectpicker" name="admin">
-                                <option value="S">Sim</option>
-                                <option value="N">Não</option>
+                        <div class="gender-group" id="admin" disabled style="display:none;">
+                            <select  class="form-control selectpicker" name="admin">
+                                <option value="${usuario.getTipoUsuario()}">Sim</option>
+                                <option value="${usuario.getTipoUsuario()}">Não</option>
                               </select>
                          </div>
                     </div>
@@ -78,12 +79,7 @@
 <!-- 							Email / Senha? -->
 <!-- 						</a> -->
 <!-- 					</div> -->
-					<div class="text-center p-t-136">
-						<a class="txt2" href="/infoposto/web?action=FrmLoginAction">
-							Já possue cadastro? Faça login!
-							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
-						</a>
-					</div>
+					
 				</form>
 			</div>
 		</div>
