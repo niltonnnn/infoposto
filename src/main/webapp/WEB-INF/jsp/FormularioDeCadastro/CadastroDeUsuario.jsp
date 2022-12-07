@@ -36,17 +36,17 @@
 						Cadastre-se!
 					</span>
 					<div class="wrap-input100 validate-input" data-validate = "Digite seu nome">
-						<input class="input100" type="text" name="nome" placeholder="Nome">
+						<input class="input100" type="text" name="nome" placeholder="Nome" required>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Digite um email válido: ex:fulano@hotmail.com">
-						<input class="input100" type="text" name="email" placeholder="Email">
+						<input class="input100" type="text" name="email" placeholder="Email" required>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 						</span>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Senha obrigadoria">
-						<input class="input100" type="password" name="senha" placeholder="Senha">
+						<input class="input100" type="password" name="senha" placeholder="Senha" required>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
