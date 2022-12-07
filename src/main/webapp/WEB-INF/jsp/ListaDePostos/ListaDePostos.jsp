@@ -60,7 +60,7 @@
 					    <h2 class="ze1">Serviços: ${posto.getServicos()}</h2>
 					    <h2 class="ze1">CNPJ :${posto.getCnpj()}</h2>
 					    <a href="/infoposto/web?action=ExcluirPostoWEB&codigo=${posto.getCnpj()}"><button>Excluir</button></a>
-<%-- 					    <a href="/infoposto/web?action=ExcluirPostoWEB&codigo=${posto.getCnpj()}"><button>Alterar</button></a> --%>
+					    <a href="/infoposto/web?action=AlterarPosto&codigo=${posto.getCnpj()}"><button>Alterar</button></a>
 					</div>
 				</div>
 			</div>
