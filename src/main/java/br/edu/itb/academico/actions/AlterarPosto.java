@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import br.edu.itb.academico.database.ConnectionFactory;
-import br.edu.itb.academico.model.FaleConosco;
 import br.edu.itb.academico.model.Posto;
 
 public class AlterarPosto implements Action {

@@ -18,7 +18,6 @@
   <!--conteudo-->
   <body>
     <%@ include file="../menu-admin.jsp" %>
-    <div>
         	<div>
 			<h1 style= "text-align: center; color: black;">Lista de postos</h1>
 			<br>
@@ -54,30 +53,29 @@
 						<b class="ze">${posto.getNomePosto()}</b>
 						<h2 class="ze1">Endereço: ${posto.getEndereco()}</h2>
 					    <h2 class="ze1">Nome dono :${posto.getNomeDono()}</h2>
-					    <h2 class="ze1">Email: ${posto.getEmail()}</h2>
-					    <h2 class="ze1">Valor: ${posto.getValorCombustivel()}</h2>
-					    <h2 class="ze1">Bandeira: ${posto.getBandeira()}</h2>
-					    <h2 class="ze1">Serviços: ${posto.getServicos()}</h2>
-					    <h2 class="ze1">CNPJ :${posto.getCnpj()}</h2>
-					    <a href="/infoposto/web?action=ExcluirPostoWEB&codigo=${posto.getCnpj()}"><button>Excluir</button></a>
-					    <a href="/infoposto/web?action=AlterarPosto&codigo=${posto.getCnpj()}"><button>Alterar</button></a>
-					</div>
+					    <h2 class="ze1" style="margin-left: 109px;">Email: ${posto.getEmail()}</h2>
+					    <h2 class="ze1" style="margin-left: 109px;">Valor: ${posto.getValorCombustivel()}</h2>
+					    <h2 class="ze1" style="margin-left: 109px;">Bandeira: ${posto.getBandeira()}</h2>
+					    <h2 class="ze1" style="margin-left: 109px;">Serviços: ${posto.getServicos()}</h2>
+					    <h2 class="ze1" style="margin-left: 109px;">CNPJ :${posto.getCnpj()}</h2>
+					    <% 
+					    Admin = (String)request.getSession().getAttribute("Admin"); 
+	                    //Remove '@' 
+	                    if (Admin == "S") 
+	                    {  
+                		%> 
+                		<a href="/infoposto/web?action=ExcluirPostoWEB&codigo=${posto.getCnpj()}"><button style="height: 25px;width: 10%; color: black;font-weight: bold;margin-bottom: 25px; background: #00D3AD; border-radius: 10px;">Excluir</button></a>
+					    <a href="/infoposto/web?action=AlterarPosto&codigo=${posto.getCnpj()}"><button style="height: 25px;width: 10%; color: black;font-weight: bold;margin-bottom: 25px; background: #00D3AD; border-radius: 10px;">Alterar</button></a>
+                		<% } 
+                			%>
+					 </div>
 				</div>
 			</div>
 			<div id="modal-Posto1" class="modal-container">
 
 	</div>
 		</c:forEach>
-
    </div>
-
-
-
-
-      <script>
-      
-      </script>
-
 
 	<%@ include file="../footer.jsp"%>
   </body>
